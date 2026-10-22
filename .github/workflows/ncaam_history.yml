@@ -1,14 +1,18 @@
 name: NCAAM historical results
 
-# Manual only: press "Run workflow" on the Actions tab and type the seasons.
-# 2025 means the 2024-25 season. Ranges work: 2019-2026. Runs about 1-3 minutes per season.
+# Manual: press "Run workflow" on the Actions tab and type the seasons.
+# 2025 means the 2024-25 season. Ranges work: 2019-2026, and "current" means this season.
+# Automatic: every Monday at 09:07 UTC (about 5:07 am Eastern) it refreshes the current season only,
+# so the model's formula-health check always has recent results to look at.
 on:
+  schedule:
+    - cron: "7 9 * * 1"
   workflow_dispatch:
     inputs:
       seasons:
-        description: "Seasons to pull, e.g. 2025 or 2019-2026 or 2023,2025"
+        description: "Seasons to pull, e.g. 2025 or 2019-2026 or 2023,2025 or current"
         required: true
-        default: "2025"
+        default: "current"
       only_missing:
         description: "Skip seasons that already have a file (true/false)"
         required: false
@@ -28,11 +32,14 @@ jobs:
           python-version: "3.11"
       - run: pip install requests
       - name: Pull results
+        env:
+          SEASONS: ${{ github.event.inputs.seasons || 'current' }}
+          ONLY_MISSING: ${{ github.event.inputs.only_missing || 'false' }}
         run: |
-          if [ "${{ github.event.inputs.only_missing }}" = "true" ]; then
-            python ncaam_history_pull.py --seasons "${{ github.event.inputs.seasons }}" --only-missing
+          if [ "$ONLY_MISSING" = "true" ]; then
+            python ncaam_history_pull.py --seasons "$SEASONS" --only-missing
           else
-            python ncaam_history_pull.py --seasons "${{ github.event.inputs.seasons }}"
+            python ncaam_history_pull.py --seasons "$SEASONS"
           fi
       - name: Commit results
         run: |
