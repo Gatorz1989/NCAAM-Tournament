@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-NCAAM Edge Model - historical game results pull   VERSION 1.0
+NCAAM Edge Model - historical game results pull   VERSION 1.1
 
 Walks ESPN's public men's college basketball scoreboard day by day and writes one CSV per
 season into  history/ncaam_games_<season>.csv  (season 2025 = the 2024-25 season, Nov through early Apr).
@@ -24,7 +24,7 @@ from datetime import date, datetime, timedelta, timezone
 
 import requests
 
-VERSION = "1.0"
+VERSION = "1.1"
 URL = ("https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard"
        "?dates={d}&groups=50&limit=400")
 OUT_DIR = "history"
@@ -51,14 +51,21 @@ def parse_seasons(s):
 
 
 def stage_of(notes, d):
-    n = (notes or "").lower()
+    """NCAA tournament games are labelled "Men's Basketball Championship - <Region> - <round>".
+    Conference tournaments are "<Conference> Championship - <round>" (or contain "Tournament").
+    NIT / CBI / College Basketball Crown stay Regular Season (the event column keeps the real name)."""
     import re
-    if re.search(r"first four", n): return "First Four"
-    if re.search(r"(1st|first|2nd|second) round", n) and re.search(r"(ncaa|championship|region)", n): return "Round of 64/32"
-    if re.search(r"(sweet 16|elite (8|eight)|regional (semi|final))", n): return "Sweet 16/Elite 8"
-    if re.search(r"(final four|national championship|national semi)", n) and re.search(r"(ncaa|championship|final four|national)", n): return "Final Four/Championship"
-    if re.search(r"(conference|tournament|tourney)", n) and "ncaa" not in n and not re.search(r"\b(nit|cbi|cit)\b|invitational|vegas 16", n): return "Conference Tournament"
-    if d.month == 3 and d.day <= 14 and not n: return "Conference Tournament"
+    n = (notes or "").lower()
+    other_post = re.search(r"\b(nit|cbi|cit)\b|invitational|basketball crown|vegas 16|the basketball classic", n)
+    ncaa = ("ncaa" in n) or ("men's basketball championship" in n) or ("mens basketball championship" in n)
+    if ncaa and not other_post:
+        if "first four" in n: return "First Four"
+        if re.search(r"(final four|national championship|national semi)", n) or re.search(r"basketball championship\s*-\s*(final four|national)", n): return "Final Four/Championship"
+        if re.search(r"(sweet 16|elite (8|eight)|regional (semi|final))", n): return "Sweet 16/Elite 8"
+        if re.search(r"(1st|first|2nd|second) round", n): return "Round of 64/32"
+        return "Regular Season"
+    if other_post: return "Regular Season"
+    if re.search(r"(championship|tournament|tourney)", n): return "Conference Tournament"
     return "Regular Season"
 
 
