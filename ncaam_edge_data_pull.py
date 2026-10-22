@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-ncaam_edge_data_pull.py  (NCAAM Edge Model v1.1 companion)
+ncaam_edge_data_pull.py  (NCAAM Edge Model v1.4 companion)
 
 Writes ncaam_model_data.json for the NCAAM Edge Model HTML:
   teams     BartTorvik ratings (adjoe, adjde, adjt, barthag, ...)
   schedule  ESPN scoreboard games (neutral-site flag, venue, tournament notes, scores)
   odds_raw  The Odds API FanDuel + DraftKings lines, unmodified (the HTML parses them)
+  api       what each source answered: Odds API credits used / remaining / last request cost, ESPN game counts, ratings status
 
 Keys: keys.txt next to this script (ODDS_API_KEY=...) wins over environment variables.
 Name matching is NOT done here – the HTML does it, visibly, so nothing is silently zeroed.
@@ -27,7 +28,7 @@ except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
     import requests
 
-VERSION = "1.1"
+VERSION = "1.2"
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "ncaam_model_data.json")
 UA = {"User-Agent": "Mozilla/5.0 (compatible; EdgeReportPull/1.0)"}
@@ -267,17 +268,27 @@ def fetch_espn(days_back=1, days_fwd=7):
 
 # ---------------------------------------------------------------- odds
 def fetch_odds(key):
+    """Returns (events, info). info is saved in the JSON so the HTML can show credits left without calling the API."""
+    info = dict(status="skipped", fetched_at=dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z", used=None, remaining=None, last=None, events=0, books=[], error="")
     if not key:
         log("  ODDS_API_KEY missing – skipping lines")
-        return []
+        info["error"] = "ODDS_API_KEY missing"
+        return [], info
     try:
         r = requests.get(ODDS_URL.format(key=key), timeout=30)
-        log(f"  Odds API: HTTP {r.status_code} · used {r.headers.get('x-requests-used', '?')} · left {r.headers.get('x-requests-remaining', '?')}")
+        h = r.headers
+        info.update(status=r.status_code, used=to_f(h.get("x-requests-used")), remaining=to_f(h.get("x-requests-remaining")), last=to_f(h.get("x-requests-last")))
+        log(f"  Odds API: HTTP {r.status_code} · used {h.get('x-requests-used', '?')} · left {h.get('x-requests-remaining', '?')} · last call cost {h.get('x-requests-last', '?')}")
         if r.status_code == 200:
-            return r.json()
+            ev = r.json()
+            info["events"] = len(ev)
+            info["books"] = sorted({b.get("key") for e in ev for b in e.get("bookmakers", []) if b.get("key")})
+            return ev, info
+        info["error"] = (r.text or "")[:160]
     except Exception as e:
+        info["error"] = str(e)[:160]
         log(f"  Odds API failed: {e}")
-    return []
+    return [], info
 
 
 # ---------------------------------------------------------------- main
@@ -292,13 +303,16 @@ def main():
             prev = None
     R = get_ratings(prev, keys)
     sched = fetch_espn()
-    odds = fetch_odds(keys["ODDS_API_KEY"])
+    odds, odds_info = fetch_odds(keys["ODDS_API_KEY"])
     if not odds and prev and prev.get("odds_raw"):
         log("  keeping previous odds_raw (fresh pull returned nothing)")
         odds = prev["odds_raw"]
+        odds_info["kept_previous"] = True
     data = dict(version=VERSION, generated_at=dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
                 season=R["season"], stale_prior_season=R["stale"], note=R["note"], ratings_source=R["source"], ratings_as_of=R["as_of"],
                 teams=R["teams"], schedule=sched, odds_raw=odds,
+                api=dict(odds=odds_info, espn=dict(games=len(sched), first=(min((g.get("date") or "") for g in sched)[:10] if sched else None), last=(max((g.get("date") or "") for g in sched)[:10] if sched else None)),
+                         ratings=dict(source=R["source"], as_of=R["as_of"], teams=len(R["teams"]), note=R["note"])),
                 _counts=dict(teams=len(R["teams"]), schedule=len(sched), odds=len(odds)))
     tmp = OUT + ".tmp"
     json.dump(data, open(tmp, "w", encoding="utf-8"), separators=(",", ":"))
