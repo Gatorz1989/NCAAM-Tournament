@@ -1,0 +1,44 @@
+name: NCAAM historical results
+
+# Manual only: press "Run workflow" on the Actions tab and type the seasons.
+# 2025 means the 2024-25 season. Ranges work: 2019-2026. Runs about 1-3 minutes per season.
+on:
+  workflow_dispatch:
+    inputs:
+      seasons:
+        description: "Seasons to pull, e.g. 2025 or 2019-2026 or 2023,2025"
+        required: true
+        default: "2025"
+      only_missing:
+        description: "Skip seasons that already have a file (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Pull results
+        run: |
+          if [ "${{ github.event.inputs.only_missing }}" = "true" ]; then
+            python ncaam_history_pull.py --seasons "${{ github.event.inputs.seasons }}" --only-missing
+          else
+            python ncaam_history_pull.py --seasons "${{ github.event.inputs.seasons }}"
+          fi
+      - name: Commit results
+        run: |
+          git config user.name "edge-report-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add history
+          git diff --staged --quiet || git commit -m "NCAAM historical results $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push
