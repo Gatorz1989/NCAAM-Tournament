@@ -1,0 +1,23 @@
+{
+ "seasons": {
+  "2025": {
+   "games": 6292,
+   "first": "2024-11-04",
+   "last": "2025-04-07",
+   "days_asked": 163,
+   "errors": 0,
+   "error_sample": [],
+   "neutral": 747,
+   "stages": {
+    "Regular Season": 5666,
+    "Conference Tournament": 503,
+    "Round of 64/32": 104,
+    "First Four": 4,
+    "Sweet 16/Elite 8": 12,
+    "Final Four/Championship": 3
+   },
+   "pulled_at": "2026-10-22T18:56:50+00:00"
+  }
+ },
+ "version": "1.0"
+}
