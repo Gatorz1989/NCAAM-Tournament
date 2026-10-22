@@ -1,0 +1,34 @@
+name: NCAAM data pull
+
+# Two runs a day so ncaam_model_data.json is always in the repo well before 9:00 am Eastern
+# (05:17 UTC = about 1:17 am ET; 08:57 UTC = about 4:57 am ET), plus a manual Run button.
+on:
+  schedule:
+    - cron: "17 5 * * *"
+    - cron: "57 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Run pull
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          RATINGS_URL: ${{ secrets.RATINGS_URL }}
+        run: python ncaam_edge_data_pull.py
+      - name: Commit data
+        run: |
+          git config user.name "edge-report-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ncaam_model_data.json
+          git diff --staged --quiet || git commit -m "NCAAM data pull $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
