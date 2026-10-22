@@ -9,15 +9,15 @@
    "error_sample": [],
    "neutral": 747,
    "stages": {
-    "Regular Season": 5666,
-    "Conference Tournament": 503,
-    "Round of 64/32": 104,
+    "Regular Season": 5877,
+    "Conference Tournament": 348,
     "First Four": 4,
+    "Round of 64/32": 48,
     "Sweet 16/Elite 8": 12,
     "Final Four/Championship": 3
    },
-   "pulled_at": "2026-10-22T18:56:50+00:00"
+   "pulled_at": "2026-10-22T19:10:22+00:00"
   }
  },
- "version": "1.0"
+ "version": "1.1"
 }

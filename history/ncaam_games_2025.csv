@@ -774,7 +774,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-16,2025,St. Joseph's Long Island,Stony Brook,45,93,B Home,Regular Season,,401726046
 2024-11-16,2025,Youngstown State,Syracuse,95,104,B Home,Regular Season,,401724988
 2024-11-16,2025,Alabama A&M,Tennessee State,71,81,B Home,Regular Season,,401721228
-2024-11-16,2025,UT Rio Grande Valley,Tennessee Tech,83,58,Neutral,Regular Season,Greenbrier Tip-Off - River Division - Championship,401729806
+2024-11-16,2025,UT Rio Grande Valley,Tennessee Tech,83,58,Neutral,Conference Tournament,Greenbrier Tip-Off - River Division - Championship,401729806
 2024-11-16,2025,Mississippi Valley State,Texas,43,89,B Home,Regular Season,,401715347
 2024-11-16,2025,James Madison,Towson,63,67,B Home,Regular Season,,401726049
 2024-11-16,2025,Siena,UAlbany,60,70,B Home,Regular Season,,401720581
@@ -989,11 +989,11 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-21,2025,Trinity (TX),Sam Houston,78,105,B Home,Regular Season,,401726428
 2024-11-21,2025,Memphis,San Francisco,68,64,B Home,Regular Season,,401722268
 2024-11-21,2025,Mercer,South Carolina,72,84,B Home,Regular Season,,401715329
-2024-11-21,2025,Baylor,St. John's,99,98,Neutral,Regular Season,Baha Mar Hoops - Bahamas Championship,401715594
+2024-11-21,2025,Baylor,St. John's,99,98,Neutral,Conference Tournament,Baha Mar Hoops - Bahamas Championship,401715594
 2024-11-21,2025,Presbyterian,Stephen F. Austin,58,55,B Home,Regular Season,Axe 'Em Classic,401727835
 2024-11-21,2025,Toledo,Stetson,103,78,Neutral,Regular Season,Boardwalk Battle,401711757
 2024-11-21,2025,Bryant,Stonehill,66,67,B Home,Regular Season,,401722011
-2024-11-21,2025,Virginia,Tennessee,42,64,Neutral,Regular Season,Baha Mar Hoops - Bahamas Championship,401715338
+2024-11-21,2025,Virginia,Tennessee,42,64,Neutral,Conference Tournament,Baha Mar Hoops - Bahamas Championship,401715338
 2024-11-21,2025,Syracuse,Texas,66,70,Neutral,Regular Season,UKG Legends Classic,401706894
 2024-11-21,2025,UT Martin,Texas A&M-Corpus Christi,77,81,B Home,Regular Season,,401720749
 2024-11-21,2025,Bradley,Texas State,82,68,Neutral,Regular Season,Myrtle Beach Invitational,401716059
@@ -1011,7 +1011,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-22,2025,Duke,Arizona,69,55,B Home,Regular Season,,401706885
 2024-11-22,2025,Little Rock,Arkansas,67,79,B Home,Regular Season,,401727319
 2024-11-22,2025,Lane College,Arkansas State,60,103,B Home,Regular Season,,401724534
-2024-11-22,2025,Tennessee,Baylor,77,62,Neutral,Regular Season,Baha Mar Hoops - Bahamas Championship,401729733
+2024-11-22,2025,Tennessee,Baylor,77,62,Neutral,Conference Tournament,Baha Mar Hoops - Bahamas Championship,401729733
 2024-11-22,2025,Morgan State,Buffalo,73,82,B Home,Regular Season,,401721013
 2024-11-22,2025,Merrimack,Butler,39,78,B Home,Regular Season,,401712996
 2024-11-22,2025,IU Indianapolis,Coastal Carolina,57,71,Neutral,Regular Season,Bulldog Bash,401724552
@@ -1059,7 +1059,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-22,2025,Ohio,Portland,85,73,Neutral,Regular Season,Myrtle Beach Invitational,401729823
 2024-11-22,2025,Texas State,Princeton,83,80,Neutral,Regular Season,Myrtle Beach Invitational,401729826
 2024-11-22,2025,Mississippi State,SMU,84,79,B Home,Regular Season,,401700447
-2024-11-22,2025,Texas,Saint Joseph's,67,58,Neutral,Regular Season,UKG Legends Classic - Championship,401729822
+2024-11-22,2025,Texas,Saint Joseph's,67,58,Neutral,Conference Tournament,UKG Legends Classic - Championship,401729822
 2024-11-22,2025,Wichita State,Saint Louis,88,63,Neutral,Regular Season,Hall of Fame Classic,401715982
 2024-11-22,2025,Southern Utah,San Diego,72,67,B Home,Regular Season,,401725354
 2024-11-22,2025,Northwest University,Seattle U,52,80,B Home,Regular Season,,401725508
@@ -1133,7 +1133,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-23,2025,La Salle,Stetson,92,77,Neutral,Regular Season,Boardwalk Battle - 7th Place Game,401729764
 2024-11-23,2025,Massachusetts,Temple,80,87,Neutral,Conference Tournament,Basketball Hall of Fame Tip-Off Tournament,401718419
 2024-11-23,2025,Le Moyne,Texas A&M-Corpus Christi,61,82,B Home,Regular Season,,401720750
-2024-11-23,2025,Toledo,UC San Diego,45,80,Neutral,Regular Season,Boardwalk Battle - Championship,401729767
+2024-11-23,2025,Toledo,UC San Diego,45,80,Neutral,Conference Tournament,Boardwalk Battle - Championship,401729767
 2024-11-23,2025,East Carolina,UIC,72,55,Neutral,Regular Season,Boardwalk Battle - 5th Place Game,401729765
 2024-11-23,2025,Boston University,UMBC,75,71,B Home,Regular Season,,401721802
 2024-11-23,2025,Quinnipiac,UMass Lowell,70,80,B Home,Regular Season,,401722177
@@ -1178,7 +1178,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-24,2025,Texas Southern,New Mexico,68,99,B Home,Regular Season,,401722260
 2024-11-24,2025,Cal State Bakersfield,Northeastern,68,60,Neutral,Regular Season,Homewood Suites Classic,401722322
 2024-11-24,2025,North Alabama,Northwestern State,58,71,B Home,Regular Season,,401711735
-2024-11-24,2025,Wisconsin,Pittsburgh,81,75,Neutral,Regular Season,Greenbrier Tip-Off - Mountain Division - Championship,401729804
+2024-11-24,2025,Wisconsin,Pittsburgh,81,75,Neutral,Conference Tournament,Greenbrier Tip-Off - Mountain Division - Championship,401729804
 2024-11-24,2025,Wofford,Portland State,74,79,Neutral,Regular Season,Cream City Challenge,401719651
 2024-11-24,2025,Portland,Princeton,67,94,Neutral,Regular Season,Myrtle Beach Invitational - 7th Place Game,401729847
 2024-11-24,2025,Kansas City,Puerto Rico-Rio Piedras,88,55,Neutral,Regular Season,Puerto Rico Clasico,401732302
@@ -1194,7 +1194,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-24,2025,Cal State Northridge,Utah Tech,89,79,Neutral,Regular Season,Stew Morrill Classic,401725808
 2024-11-24,2025,Miami,VCU,70,77,Neutral,Regular Season,Shriners Children’s Charleston Classic - 7th Place Game,401729791
 2024-11-24,2025,Eastern Illinois,Valparaiso,53,81,B Home,Regular Season,DePaul Classic,401724523
-2024-11-24,2025,Drake,Vanderbilt,81,70,Neutral,Regular Season,Shriners Children’s Charleston Classic - Championship,401729794
+2024-11-24,2025,Drake,Vanderbilt,81,70,Neutral,Conference Tournament,Shriners Children’s Charleston Classic - Championship,401729794
 2024-11-24,2025,South Florida,Wright State,73,72,Neutral,Regular Season,Myrtle Beach Invitational - 3rd Place Game,401729848
 2024-11-25,2025,IU Indianapolis,Alabama A&M,88,83,B Home,Regular Season,,401721231
 2024-11-25,2025,Maryland Eastern Shore,Arkansas,35,109,B Home,Regular Season,,401723726
@@ -1215,7 +1215,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-25,2025,Auburn,Iowa State,83,81,Neutral,Regular Season,The Maui Invitational Presented by Novavax,401714643
 2024-11-25,2025,Mercer,Jacksonville,90,89,Neutral,Regular Season,Fort Myers Tip-Off - Palms Division,401715947
 2024-11-25,2025,Longwood,Kansas State,64,80,Neutral,Regular Season,Paradise Jam - 3rd Place Game,401732301
-2024-11-25,2025,McNeese,Liberty,58,62,Neutral,Regular Season,Paradise Jam - Championship,401732300
+2024-11-25,2025,McNeese,Liberty,58,62,Neutral,Conference Tournament,Paradise Jam - Championship,401732300
 2024-11-25,2025,UNC Greensboro,Long Beach State,71,48,Neutral,Regular Season,Ball Dawgs Classic,401709973
 2024-11-25,2025,UAB,Louisiana,98,86,Neutral,Regular Season,Paradise Jam - 7th Place Game,401732299
 2024-11-25,2025,Southern Illinois,Louisiana Tech,79,85,Neutral,Regular Season,Gulf Coast Showcase,401732168
@@ -1258,7 +1258,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-26,2025,Midway,Bellarmine,60,101,B Home,Regular Season,,401727263
 2024-11-26,2025,Loyola Marymount,Belmont,77,63,Neutral,Regular Season,Cancun Challenge - Riviera Division,401722563
 2024-11-26,2025,North Dakota,Bethune-Cookman,67,79,Neutral,Regular Season,Cancun Challenge - Mayan Division,401722036
-2024-11-26,2025,Boise State,Boston College,61,63,Neutral,Regular Season,Cayman Islands Classic - Championship,401729779
+2024-11-26,2025,Boise State,Boston College,61,63,Neutral,Conference Tournament,Cayman Islands Classic - Championship,401729779
 2024-11-26,2025,Grambling,Cal Poly,79,82,B Home,Regular Season,,401727270
 2024-11-26,2025,Drexel,Chicago State,83,71,Neutral,Regular Season,Sunshine Slam - Ocean Division - 3rd Place Game,401729855
 2024-11-26,2025,NJIT,Cleveland State,53,56,B Home,Regular Season,Viking Invitational,401726489
@@ -1280,7 +1280,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-26,2025,South Carolina Upstate,Iowa,77,110,B Home,Regular Season,,401715383
 2024-11-26,2025,Western Kentucky,Kentucky,68,87,B Home,Regular Season,BBN Invitational,401714911
 2024-11-26,2025,VMI,Loyola Maryland,67,70,B Home,Regular Season,,401721806
-2024-11-26,2025,Miami (OH),Mercer,75,72,Neutral,Regular Season,Fort Myers Tip-Off - Palms Division - Championship,401729800
+2024-11-26,2025,Miami (OH),Mercer,75,72,Neutral,Conference Tournament,Fort Myers Tip-Off - Palms Division - Championship,401729800
 2024-11-26,2025,Memphis,Michigan State,71,63,Neutral,Regular Season,The Maui Invitational Presented by Novavax,401729692
 2024-11-26,2025,South Dakota State,Missouri State,75,55,Neutral,Regular Season,Cayman Islands Classic - 3rd Place Game,401729778
 2024-11-26,2025,Abilene Christian,Montana State,59,85,B Home,Regular Season,Basketball Travelers Invitational,401720891
@@ -1290,9 +1290,9 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-26,2025,Northern New Mexico,Northern Colorado,50,92,B Home,Regular Season,,401719373
 2024-11-26,2025,Duquesne,Old Dominion,67,54,Neutral,Regular Season,Cayman Islands Classic - 7th Place Game,401729776
 2024-11-26,2025,Texas A&M,Oregon,70,80,Neutral,Conference Tournament,Players Era Festival - Power Tournament,401719207
-2024-11-26,2025,Clemson,Penn State,75,67,Neutral,Regular Season,Sunshine Slam - Beach Division - Championship,401729853
+2024-11-26,2025,Clemson,Penn State,75,67,Neutral,Conference Tournament,Sunshine Slam - Beach Division - Championship,401729853
 2024-11-26,2025,Cal State Fullerton,Pepperdine,72,63,B Home,Regular Season,,401722334
-2024-11-26,2025,Radford,Purdue Fort Wayne,69,56,Neutral,Regular Season,Sunshine Slam - Ocean Division - Championship,401729856
+2024-11-26,2025,Radford,Purdue Fort Wayne,69,56,Neutral,Conference Tournament,Sunshine Slam - Ocean Division - Championship,401729856
 2024-11-26,2025,Louisiana Tech,Richmond,65,62,Neutral,Regular Season,Gulf Coast Showcase,401732171
 2024-11-26,2025,Notre Dame,Rutgers,84,85,Neutral,Conference Tournament,Players Era Festival - Impact Tournament,401719211
 2024-11-26,2025,California Baptist,SMU,77,79,Neutral,Regular Season,Acrisure Holiday Invitational,401700448
@@ -1323,7 +1323,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-27,2025,UT Arlington,Austin Peay,68,58,Neutral,Regular Season,Jacksonville Classic,401729818
 2024-11-27,2025,LSU New Orleans,Baylor,60,91,B Home,Regular Season,,401720733
 2024-11-27,2025,Tulane,Belmont,66,89,Neutral,Regular Season,Cancun Challenge - Riviera Division - Consolation Game,401729770
-2024-11-27,2025,Gardner-Webb,Bethune-Cookman,79,64,Neutral,Regular Season,Cancun Challenge - Mayan Division - Championship,401729769
+2024-11-27,2025,Gardner-Webb,Bethune-Cookman,79,64,Neutral,Conference Tournament,Cancun Challenge - Mayan Division - Championship,401729769
 2024-11-27,2025,Stony Brook,Brown,54,77,B Home,Regular Season,,401721693
 2024-11-27,2025,Mercyhurst,California,55,81,B Home,Regular Season,Cal Classic,401706878
 2024-11-27,2025,Northern Kentucky,Charleston,64,79,B Home,Regular Season,,401726014
@@ -1344,12 +1344,12 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-27,2025,Maryland Eastern Shore,Little Rock,59,78,B Home,Regular Season,,401723727
 2024-11-27,2025,San José State,Long Beach State,82,66,Neutral,Regular Season,Ball Dawgs Classic,401709975
 2024-11-27,2025,Eastern Kentucky,Louisiana Tech,69,78,Neutral,Regular Season,Gulf Coast Showcase,401732173
-2024-11-27,2025,Wyoming,Loyola Marymount,70,73,Neutral,Regular Season,Cancun Challenge - Riviera Division - Championship,401729771
+2024-11-27,2025,Wyoming,Loyola Marymount,70,73,Neutral,Conference Tournament,Cancun Challenge - Riviera Division - Championship,401729771
 2024-11-27,2025,Stonehill,Marquette,59,94,B Home,Regular Season,,401715479
 2024-11-27,2025,South Carolina State,Marshall,53,82,B Home,Regular Season,,401726563
 2024-11-27,2025,Bucknell,Maryland,67,91,B Home,Regular Season,,401707871
 2024-11-27,2025,UTSA,Merrimack,76,74,Neutral,Regular Season,Trojan Turkey Tipoff,401716158
-2024-11-27,2025,Xavier,Michigan,53,78,Neutral,Regular Season,Fort Myers Tip-Off - Beach Division - Championship,401729802
+2024-11-27,2025,Xavier,Michigan,53,78,Neutral,Conference Tournament,Fort Myers Tip-Off - Beach Division - Championship,401729802
 2024-11-27,2025,Lindenwood,Missouri,61,81,B Home,Regular Season,,401715313
 2024-11-27,2025,Cal State Northridge,Montana,75,83,B Home,Regular Season,Stew Morrill Classic,401720893
 2024-11-27,2025,NJIT,Morehead State,78,69,Neutral,Regular Season,Viking Invitational,401726490
@@ -1409,8 +1409,8 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-28,2025,Florida,Wake Forest,75,58,Neutral,Regular Season,ESPN Events Invitational,401714894
 2024-11-28,2025,Minnesota,Wichita State,66,68,Neutral,Regular Season,ESPN Events Invitational,401715393
 2024-11-29,2025,Colgate,App State,50,72,Neutral,Regular Season,Live Oak Bank Holiday Classic,401721810
-2024-11-29,2025,Saint Mary's,Arizona State,64,68,Neutral,Regular Season,Acrisure Classic - Championship,401729699
-2024-11-29,2025,Indiana State,Arkansas State,81,86,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716020
+2024-11-29,2025,Saint Mary's,Arizona State,64,68,Neutral,Conference Tournament,Acrisure Classic - Championship,401729699
+2024-11-29,2025,Indiana State,Arkansas State,81,86,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716020
 2024-11-29,2025,NC State,BYU,61,72,Neutral,Regular Season,Rady Children's Invitational - 3rd Place Game,401731041
 2024-11-29,2025,Gardner-Webb,Belmont,74,83,B Home,Regular Season,Cancun Challenge - Campus Game,401722564
 2024-11-29,2025,Niagara,Binghamton,65,62,Neutral,Conference Tournament,Lafayette Tournament,401721993
@@ -1427,9 +1427,9 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-29,2025,Wichita State,Florida,51,88,Neutral,Regular Season,ESPN Events Invitational - Championship,401729798
 2024-11-29,2025,VMI,George Washington,64,77,B Home,Regular Season,,401718139
 2024-11-29,2025,Davidson,Gonzaga,65,90,Neutral,Regular Season,Bad Boy Mowers Battle 4 Atlantis - 5th Place Game,401729748
-2024-11-29,2025,Rice,Hofstra,63,68,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716021
+2024-11-29,2025,Rice,Hofstra,63,68,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716021
 2024-11-29,2025,Providence,Indiana,73,89,Neutral,Regular Season,Bad Boy Mowers Battle 4 Atlantis - 7th Place Game,401729744
-2024-11-29,2025,Tarleton State,Iona,51,62,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716019
+2024-11-29,2025,Tarleton State,Iona,51,62,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716019
 2024-11-29,2025,George Mason,James Madison,66,61,B Home,Regular Season,,401716881
 2024-11-29,2025,Towson,Kennesaw State,63,67,Neutral,Regular Season,Western Slam,401700271
 2024-11-29,2025,UC Irvine,Kent State,51,39,Neutral,Regular Season,Western Slam,401721033
@@ -1437,9 +1437,9 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-29,2025,Northwestern State,LSU,53,77,B Home,Regular Season,,401714921
 2024-11-29,2025,Long Island University,Lafayette,56,75,B Home,Conference Tournament,Lafayette Tournament,401724548
 2024-11-29,2025,Central Penn,Liberty,36,93,B Home,Regular Season,,401718710
-2024-11-29,2025,Oklahoma,Louisville,69,64,Neutral,Regular Season,Bad Boy Mowers Battle 4 Atlantis - Championship,401729747
+2024-11-29,2025,Oklahoma,Louisville,69,64,Neutral,Conference Tournament,Bad Boy Mowers Battle 4 Atlantis - Championship,401729747
 2024-11-29,2025,Le Moyne,Manhattan,81,77,B Home,Regular Season,,401721155
-2024-11-29,2025,Butler,Mississippi State,87,77,Neutral,Regular Season,Arizona Tip-Off - Cactus Division - Championship,401729706
+2024-11-29,2025,Butler,Mississippi State,87,77,Neutral,Conference Tournament,Arizona Tip-Off - Cactus Division - Championship,401729706
 2024-11-29,2025,USC,New Mexico,73,83,Neutral,Regular Season,Acrisure Classic - 3rd Place Game,401729700
 2024-11-29,2025,Pepperdine,New Mexico State,82,70,Neutral,Regular Season,Arizona Tip-Off - Desert Division,401725200
 2024-11-29,2025,Utah State,North Texas,61,57,Neutral,Regular Season,NIT Season Tip-Off - Championship,401729851
@@ -1464,7 +1464,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-29,2025,Santa Clara,Washington,69,76,Neutral,Regular Season,Acrisure Invitational - Championship,401729704
 2024-11-29,2025,Bowling Green,Weber State,70,73,Neutral,Regular Season,Arizona Tip-Off - Desert Division,401720518
 2024-11-29,2025,Arizona,West Virginia,76,83,Neutral,Regular Season,Bad Boy Mowers Battle 4 Atlantis - 3rd Place Game,401729746
-2024-11-30,2025,Oregon,Alabama,83,81,Neutral,Regular Season,Players Era Festival - Championship Day - Championship,401730560
+2024-11-30,2025,Oregon,Alabama,83,81,Neutral,Conference Tournament,Players Era Festival - Championship Day - Championship,401730560
 2024-11-30,2025,Lipscomb,Alabama A&M,82,44,B Home,Regular Season,,401711687
 2024-11-30,2025,New Mexico State,Bowling Green,60,61,Neutral,Regular Season,Arizona Tip-Off - Desert Division - 3rd Place Game,401729727
 2024-11-30,2025,Siena,Bucknell,71,58,Neutral,Regular Season,,401720586
@@ -1480,11 +1480,11 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-30,2025,Central Arkansas,Georgia Tech,68,87,B Home,Regular Season,,401715670
 2024-11-30,2025,Campbell,Green Bay,72,66,B Home,Regular Season,,401726011
 2024-11-30,2025,Pfeiffer,High Point,50,81,B Home,Regular Season,,401720459
-2024-11-30,2025,San Diego State,Houston,73,70,Neutral,Regular Season,Players Era Festival - Championship Day - 3rd Place Game,401730559
+2024-11-30,2025,San Diego State,Houston,73,70,Neutral,Conference Tournament,Players Era Festival - Championship Day - 3rd Place Game,401730559
 2024-11-30,2025,Mount St. Mary's,Howard,79,75,B Home,Regular Season,,401727303
 2024-11-30,2025,Trinity Christian,IU Indianapolis,49,106,B Home,Regular Season,,401727500
 2024-11-30,2025,UC Riverside,Idaho,68,80,B Home,Regular Season,,401720563
-2024-11-30,2025,Iona,Indiana State,80,83,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716022
+2024-11-30,2025,Iona,Indiana State,80,83,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716022
 2024-11-30,2025,Furman,Kansas,51,86,B Home,Regular Season,Terry's Chocolate Vegas Showdown,401706966
 2024-11-30,2025,Kent State,Kennesaw State,67,60,Neutral,Regular Season,Western Slam,401700272
 2024-11-30,2025,Temple,La Salle,75,83,B Home,Regular Season,Big 5 Classic - Campus Game,401700392
@@ -1499,17 +1499,17 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-30,2025,Cal State Northridge,Montana State,72,69,B Home,Regular Season,,401720895
 2024-11-30,2025,Virginia Lynchburg,North Carolina Central,51,131,B Home,Regular Season,,401727123
 2024-11-30,2025,Bellarmine,Northern Kentucky,70,86,B Home,Regular Season,,401727264
-2024-11-30,2025,Creighton,Notre Dame,80,76,Neutral,Regular Season,Players Era Festival - Championship Day - 7th Place Game,401730557
+2024-11-30,2025,Creighton,Notre Dame,80,76,Neutral,Conference Tournament,Players Era Festival - Championship Day - 7th Place Game,401730557
 2024-11-30,2025,Robert Morris,Ohio,68,84,B Home,Regular Season,,401721062
 2024-11-30,2025,Abilene Christian,Omaha,71,55,B Home,Regular Season,,401725376
 2024-11-30,2025,UC Davis,Oregon State,57,90,B Home,Regular Season,,401722407
 2024-11-30,2025,Cal State Fullerton,Pacific,55,64,B Home,Regular Season,,401722333
 2024-11-30,2025,Maine,Pennsylvania,64,77,B Home,Regular Season,Cathedral Classic Invitational,401721696
-2024-11-30,2025,Weber State,Pepperdine,68,53,Neutral,Regular Season,Arizona Tip-Off - Desert Division - Championship,401729728
+2024-11-30,2025,Weber State,Pepperdine,68,53,Neutral,Conference Tournament,Arizona Tip-Off - Desert Division - Championship,401729728
 2024-11-30,2025,Utah Tech,Portland State,68,71,B Home,Regular Season,,401719652
-2024-11-30,2025,Arkansas State,Rice,67,75,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716023
+2024-11-30,2025,Arkansas State,Rice,67,75,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716023
 2024-11-30,2025,Delaware,Rider,72,66,B Home,Regular Season,,401706172
-2024-11-30,2025,Texas A&M,Rutgers,81,77,Neutral,Regular Season,Players Era Festival - Championship Day - 5th Place Game,401730558
+2024-11-30,2025,Texas A&M,Rutgers,81,77,Neutral,Conference Tournament,Players Era Festival - Championship Day - 5th Place Game,401730558
 2024-11-30,2025,Mercyhurst,Sacramento State,66,60,B Home,Regular Season,Cal Classic,401720896
 2024-11-30,2025,Colgate,Sam Houston,78,82,Neutral,Regular Season,Live Oak Bank Holiday Classic,401721811
 2024-11-30,2025,Monmouth,Seton Hall,63,51,B Home,Regular Season,,401715565
@@ -1518,7 +1518,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-11-30,2025,Cal State Bakersfield,Southern Utah,64,74,B Home,Regular Season,,401722326
 2024-11-30,2025,Harvard,St. John's,64,77,B Home,Regular Season,,401715595
 2024-11-30,2025,Cal Poly,Stanford,97,90,B Home,Regular Season,,401715699
-2024-11-30,2025,Hofstra,Tarleton State,59,61,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716024
+2024-11-30,2025,Hofstra,Tarleton State,59,61,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716024
 2024-11-30,2025,Prairie View A&M,Texas A&M-Corpus Christi,74,109,B Home,Regular Season,,401720752
 2024-11-30,2025,Oakland,Toledo,85,52,B Home,Regular Season,,401721071
 2024-11-30,2025,UC Irvine,Towson,67,60,Neutral,Regular Season,Western Slam,401720980
@@ -1538,9 +1538,9 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-12-01,2025,Purdue Northwest,Central Michigan,69,115,B Home,Regular Season,,401729952
 2024-12-01,2025,Fairleigh Dickinson,Fairfield,74,78,B Home,Regular Season,,401721137
 2024-12-01,2025,New Hampshire,Fordham,61,83,B Home,Regular Season,,401716871
-2024-12-01,2025,Arkansas State,Hofstra,66,68,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716026
-2024-12-01,2025,Tarleton State,Indiana State,71,87,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716053
-2024-12-01,2025,Rice,Iona,70,66,Neutral,Regular Season,Baha Mar Hoops - Nassau Championship,401716025
+2024-12-01,2025,Arkansas State,Hofstra,66,68,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716026
+2024-12-01,2025,Tarleton State,Indiana State,71,87,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716053
+2024-12-01,2025,Rice,Iona,70,66,Neutral,Conference Tournament,Baha Mar Hoops - Nassau Championship,401716025
 2024-12-01,2025,Arkansas-Pine Bluff,Kansas State,73,120,B Home,Regular Season,,401706976
 2024-12-01,2025,Binghamton,Lafayette,82,81,B Home,Conference Tournament,Lafayette Tournament,401721995
 2024-12-01,2025,Regent,Longwood,55,108,B Home,Regular Season,,401720470
@@ -2482,7 +2482,7 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2024-12-25,2025,Charleston,Charlotte,84,81,Neutral,Regular Season,Hawaiian Airlines Diamond Head Classic - 5th Place Game,401729812
 2024-12-25,2025,Oakland,Hawai'i,70,73,B Home,Regular Season,Hawaiian Airlines Diamond Head Classic - 3rd Place Game,401729813
 2024-12-25,2025,Loyola Chicago,Murray State,68,71,Neutral,Regular Season,Hawaiian Airlines Diamond Head Classic - 7th Place Game,401729811
-2024-12-25,2025,Oregon State,Nebraska,66,78,Neutral,Regular Season,Hawaiian Airlines Diamond Head Classic - Championship,401729814
+2024-12-25,2025,Oregon State,Nebraska,66,78,Neutral,Conference Tournament,Hawaiian Airlines Diamond Head Classic - Championship,401729814
 2024-12-27,2025,Arlington Baptist,Baylor,53,107,B Home,Regular Season,,401727065
 2024-12-27,2025,Cleary University,Duquesne,45,93,B Home,Regular Season,,401724527
 2024-12-28,2025,Fairleigh Dickinson,Boston College,70,78,B Home,Regular Season,,401706875
@@ -5508,665 +5508,665 @@ date,season,team_a,team_b,score_a,score_b,site,stage,event,espn_id
 2025-02-28,2025,Arkansas State,UL Monroe,94,67,B Home,Regular Season,,401714626
 2025-02-28,2025,Nevada,UNLV,55,68,B Home,Regular Season,,401722255
 2025-02-28,2025,Davidson,VCU,56,80,B Home,Regular Season,,401724453
-2025-03-01,2025,Alabama A&M,Alabama State,52,94,B Home,Conference Tournament,,401721250
-2025-03-01,2025,Prairie View A&M,Alcorn State,55,71,B Home,Conference Tournament,,401721300
-2025-03-01,2025,Lehigh,Army,89,67,B Home,Conference Tournament,,401721925
-2025-03-01,2025,West Virginia,BYU,56,77,B Home,Conference Tournament,,401725771
-2025-03-01,2025,Oklahoma State,Baylor,61,71,B Home,Conference Tournament,,401725772
-2025-03-01,2025,Southern,Bethune-Cookman,69,70,B Home,Conference Tournament,,401722050
-2025-03-01,2025,Lafayette,Boston University,64,66,B Home,Conference Tournament,,401721924
-2025-03-01,2025,Ball State,Bowling Green,52,61,B Home,Conference Tournament,,401706391
-2025-03-01,2025,Toledo,Buffalo,74,87,B Home,Conference Tournament,,401706395
-2025-03-01,2025,Cal State Bakersfield,Cal Poly,72,98,B Home,Conference Tournament,,401714388
-2025-03-01,2025,UC Santa Barbara,Cal State Northridge,77,103,B Home,Conference Tournament,,401714389
-2025-03-01,2025,Boston College,California,71,82,B Home,Conference Tournament,,401724906
-2025-03-01,2025,Campbell,Charleston,65,87,B Home,Conference Tournament,,401714305
-2025-03-01,2025,Purdue Fort Wayne,Cleveland State,57,68,B Home,Conference Tournament,,401714502
-2025-03-01,2025,American University,Colgate,67,59,B Home,Conference Tournament,,401721926
-2025-03-01,2025,Utah State,Colorado State,66,93,B Home,Conference Tournament,,401722405
-2025-03-01,2025,Pennsylvania,Columbia,92,87,B Home,Conference Tournament,,401721756
-2025-03-01,2025,Brown,Dartmouth,58,78,B Home,Conference Tournament,,401720966
-2025-03-01,2025,Richmond,Dayton,64,74,B Home,Conference Tournament,,401724455
-2025-03-01,2025,Coppin State,Delaware State,79,83,B Home,Conference Tournament,,401723694
-2025-03-01,2025,South Dakota State,Denver,62,78,B Home,Conference Tournament,,401706570
-2025-03-01,2025,Monmouth,Drexel,61,71,B Home,Conference Tournament,,401714300
-2025-03-01,2025,Florida State,Duke,65,100,B Home,Conference Tournament,,401724905
-2025-03-01,2025,George Mason,Duquesne,68,85,B Home,Conference Tournament,,401724456
-2025-03-01,2025,Incarnate Word,East Texas A&M,75,68,B Home,Conference Tournament,,401716133
-2025-03-01,2025,Southeast Missouri State,Eastern Illinois,58,73,B Home,Conference Tournament,,401700382
-2025-03-01,2025,Idaho State,Eastern Washington,78,54,B Home,Conference Tournament,,401718491
-2025-03-01,2025,Long Island University,Fairleigh Dickinson,74,55,B Home,Conference Tournament,,401721150
-2025-03-01,2025,Texas A&M,Florida,70,89,B Home,Conference Tournament,,401708420
-2025-03-01,2025,Grambling,Florida A&M,68,73,B Home,Conference Tournament,,401722064
-2025-03-01,2025,Jacksonville State,Florida International,84,79,B Home,Conference Tournament,,401700253
-2025-03-01,2025,Saint Joseph's,Fordham,90,76,B Home,Conference Tournament,,401724454
-2025-03-01,2025,Boise State,Fresno State,66,61,B Home,Conference Tournament,,401727154
-2025-03-01,2025,La Salle,George Washington,60,71,B Home,Conference Tournament,,401724457
-2025-03-01,2025,Marquette,Georgetown,76,61,B Home,Conference Tournament,,401719170
-2025-03-01,2025,NC State,Georgia Tech,62,87,B Home,Conference Tournament,,401724903
-2025-03-01,2025,Oakland,Green Bay,87,84,B Home,Conference Tournament,,401714504
-2025-03-01,2025,Yale,Harvard,69,74,B Home,Conference Tournament,,401721754
-2025-03-01,2025,UC Davis,Hawai'i,70,78,B Home,Conference Tournament,,401714391
-2025-03-01,2025,North Carolina A&T,Hofstra,49,70,B Home,Conference Tournament,,401714303
-2025-03-01,2025,Bucknell,Holy Cross,94,81,B Home,Conference Tournament,,401721923
-2025-03-01,2025,Cincinnati,Houston,64,73,B Home,Conference Tournament,,401725770
-2025-03-01,2025,Wright State,IU Indianapolis,84,91,B Home,Conference Tournament,,401714501
-2025-03-01,2025,Weber State,Idaho,79,81,B Home,Conference Tournament,,401720556
-2025-03-01,2025,Arizona,Iowa State,67,84,B Home,Conference Tournament,,401725766
-2025-03-01,2025,Texas Southern,Jackson State,52,67,B Home,Conference Tournament,,401722078
-2025-03-01,2025,Texas Tech,Kansas,78,73,B Home,Conference Tournament,,401725768
-2025-03-01,2025,Auburn,Kentucky,94,78,B Home,Conference Tournament,,401708421
-2025-03-01,2025,McNeese,Lamar,68,66,B Home,Conference Tournament,,401720683
-2025-03-01,2025,Pittsburgh,Louisville,68,79,B Home,Conference Tournament,,401724910
-2025-03-01,2025,Bryant,Maine,80,72,B Home,Conference Tournament,,401720862
-2025-03-01,2025,Morgan State,Maryland Eastern Shore,75,72,B Home,Conference Tournament,,401723741
-2025-03-01,2025,Rhode Island,Massachusetts,88,91,B Home,Conference Tournament,,401724459
-2025-03-01,2025,Western Carolina,Mercer,69,81,B Home,Conference Tournament,,401706496
-2025-03-01,2025,Detroit Mercy,Milwaukee,67,89,B Home,Conference Tournament,,401714503
-2025-03-01,2025,LSU,Mississippi State,69,81,B Home,Conference Tournament,,401708423
-2025-03-01,2025,Arkansas-Pine Bluff,Mississippi Valley State,83,58,B Home,Conference Tournament,,401722117
-2025-03-01,2025,UAlbany,NJIT,86,59,B Home,Conference Tournament,,401720860
-2025-03-01,2025,Loyola Maryland,Navy,68,81,B Home,Conference Tournament,,401721927
-2025-03-01,2025,Minnesota,Nebraska,67,65,B Home,Conference Tournament,,401721461
-2025-03-01,2025,Air Force,New Mexico,71,92,B Home,Conference Tournament,,401722211
-2025-03-01,2025,Western Kentucky,New Mexico State,47,65,B Home,Conference Tournament,,401700252
-2025-03-01,2025,Miami,North Carolina,73,92,B Home,Conference Tournament,,401724909
-2025-03-01,2025,Howard,North Carolina Central,68,72,B Home,Conference Tournament,,401731884
-2025-03-01,2025,Northern Colorado,Northern Arizona,83,73,B Home,Conference Tournament,,401719392
-2025-03-01,2025,Western Michigan,Northern Illinois,74,70,B Home,Conference Tournament,,401706396
-2025-03-01,2025,Youngstown State,Northern Kentucky,79,88,B Home,Conference Tournament,,401714505
-2025-03-01,2025,Houston Christian,Northwestern State,56,61,B Home,Conference Tournament,,401715980
-2025-03-01,2025,Miami (OH),Ohio,66,75,B Home,Conference Tournament,,401706394
-2025-03-01,2025,Oklahoma,Ole Miss,84,87,B Home,Conference Tournament,,401708422
-2025-03-01,2025,Oral Roberts,Omaha,57,80,B Home,Conference Tournament,,401706568
-2025-03-01,2025,USC,Oregon,61,82,B Home,Conference Tournament,,401721462
-2025-03-01,2025,Santa Clara,Pacific,97,66,B Home,Conference Tournament,,401706761
-2025-03-01,2025,Maryland,Penn State,68,64,B Home,Conference Tournament,,401721463
-2025-03-01,2025,Washington State,Pepperdine,90,83,B Home,Conference Tournament,,401706758
-2025-03-01,2025,Montana,Portland State,76,79,B Home,Conference Tournament,,401719671
-2025-03-01,2025,Gardner-Webb,Presbyterian,57,68,B Home,Conference Tournament,,401727933
-2025-03-01,2025,UConn,Providence,75,63,B Home,Conference Tournament,,401719168
-2025-03-01,2025,Charleston Southern,Radford,60,76,B Home,Conference Tournament,,401727932
-2025-03-01,2025,Little Rock,SIU Edwardsville,65,73,B Home,Conference Tournament,,401700384
-2025-03-01,2025,Montana State,Sacramento State,87,60,B Home,Conference Tournament,,401720938
-2025-03-01,2025,Chicago State,Saint Francis,71,80,B Home,Conference Tournament,,401721129
-2025-03-01,2025,Loyola Chicago,Saint Louis,67,98,B Home,Conference Tournament,,401724458
-2025-03-01,2025,Oregon State,Saint Mary's,64,74,B Home,Conference Tournament,,401706760
-2025-03-01,2025,Louisiana Tech,Sam Houston,90,66,B Home,Conference Tournament,,401700250
-2025-03-01,2025,Portland,San Diego,80,82,B Home,Conference Tournament,,401706759
-2025-03-01,2025,Gonzaga,San Francisco,95,75,Neutral,Conference Tournament,,401706757
-2025-03-01,2025,Grand Canyon,Seattle U,63,60,B Home,Conference Tournament,,401706632
-2025-03-01,2025,Arkansas,South Carolina,53,72,B Home,Conference Tournament,,401708424
-2025-03-01,2025,Norfolk State,South Carolina State,88,91,B Home,Conference Tournament,,401723766
-2025-03-01,2025,Longwood,South Carolina Upstate,83,66,B Home,Conference Tournament,,401727934
-2025-03-01,2025,North Dakota,South Dakota,79,92,B Home,Conference Tournament,,401706569
-2025-03-01,2025,Seton Hall,St. John's,61,71,B Home,Conference Tournament,,401719169
-2025-03-01,2025,Kansas City,St. Thomas,59,65,B Home,Conference Tournament,,401706567
-2025-03-01,2025,SMU,Stanford,68,73,B Home,Conference Tournament,,401724904
-2025-03-01,2025,Nicholls,Stephen F. Austin,94,70,B Home,Conference Tournament,,401726452
-2025-03-01,2025,Le Moyne,Stonehill,79,85,B Home,Conference Tournament,,401721169
-2025-03-01,2025,Elon,Stony Brook,66,71,B Home,Conference Tournament,,401714304
-2025-03-01,2025,UCF,TCU,78,89,B Home,Conference Tournament,,401725769
-2025-03-01,2025,Alabama,Tennessee,76,79,B Home,Conference Tournament,,401708425
-2025-03-01,2025,Southern Indiana,Tennessee State,69,74,B Home,Conference Tournament,,401700386
-2025-03-01,2025,Lindenwood,Tennessee Tech,76,74,B Home,Conference Tournament,,401700383
-2025-03-01,2025,Georgia,Texas,83,67,B Home,Conference Tournament,,401708427
-2025-03-01,2025,SE Louisiana,Texas A&M-Corpus Christi,54,68,B Home,Conference Tournament,,401716068
-2025-03-01,2025,East Tennessee State,The Citadel,81,66,B Home,Conference Tournament,,401706494
-2025-03-01,2025,Hampton,Towson,72,75,B Home,Conference Tournament,,401714302
-2025-03-01,2025,Tulane,Tulsa,79,77,B Home,Conference Tournament,,401725612
-2025-03-01,2025,Long Beach State,UC Irvine,60,70,B Home,Conference Tournament,,401709996
-2025-03-01,2025,Cal State Fullerton,UC San Diego,55,100,B Home,Conference Tournament,,401714390
-2025-03-01,2025,Vermont,UMBC,79,69,B Home,Conference Tournament,,401720859
-2025-03-01,2025,Binghamton,UMass Lowell,53,79,B Home,Conference Tournament,,401720861
-2025-03-01,2025,Samford,UNC Greensboro,100,108,B Home,Conference Tournament,,401706497
-2025-03-01,2025,Delaware,UNC Wilmington,58,88,B Home,Conference Tournament,,401714301
-2025-03-01,2025,Abilene Christian,UT Arlington,70,59,B Home,Conference Tournament,,401706634
-2025-03-01,2025,Morehead State,UT Martin,59,47,B Home,Conference Tournament,,401700385
-2025-03-01,2025,LSU New Orleans,UT Rio Grande Valley,78,88,B Home,Conference Tournament,,401720744
-2025-03-01,2025,Middle Tennessee,UTEP,76,75,B Home,Conference Tournament,,401700251
-2025-03-01,2025,Arizona State,Utah,73,99,B Home,Conference Tournament,,401725767
-2025-03-01,2025,California Baptist,Utah Tech,61,57,B Home,Conference Tournament,,401706631
-2025-03-01,2025,Southern Utah,Utah Valley,59,100,B Home,Conference Tournament,,401706633
-2025-03-01,2025,Chattanooga,VMI,91,70,B Home,Conference Tournament,,401706498
-2025-03-01,2025,Missouri,Vanderbilt,93,97,B Home,Conference Tournament,,401708426
-2025-03-01,2025,Butler,Villanova,70,80,B Home,Conference Tournament,,401719167
-2025-03-01,2025,Clemson,Virginia,71,58,B Home,Conference Tournament,,401724911
-2025-03-01,2025,Syracuse,Virginia Tech,95,101,B Home,Conference Tournament,,401724907
-2025-03-01,2025,Central Connecticut,Wagner,55,48,B Home,Conference Tournament,,401721107
-2025-03-01,2025,Notre Dame,Wake Forest,71,74,B Home,Conference Tournament,,401724908
-2025-03-01,2025,Indiana,Washington,78,62,B Home,Conference Tournament,,401721464
-2025-03-01,2025,Northeastern,William & Mary,70,68,B Home,Conference Tournament,,401714299
-2025-03-01,2025,UNC Asheville,Winthrop,90,103,B Home,Conference Tournament,,401727935
-2025-03-01,2025,Furman,Wofford,78,75,B Home,Conference Tournament,,401706495
-2025-03-01,2025,San Diego State,Wyoming,72,69,B Home,Conference Tournament,,401722362
-2025-03-01,2025,Creighton,Xavier,61,83,B Home,Conference Tournament,,401719164
-2025-03-02,2025,North Florida,Austin Peay,69,90,Neutral,Round of 64/32,ASUN Championship - 1st Round,401743798
-2025-03-02,2025,Murray State,Belmont,60,70,B Home,Conference Tournament,,401722554
-2025-03-02,2025,Northern Iowa,Bradley,56,73,B Home,Conference Tournament,,401722552
-2025-03-02,2025,Iona,Canisius,82,52,B Home,Conference Tournament,,401706289
-2025-03-02,2025,Princeton,Cornell,70,102,B Home,Conference Tournament,,401721755
-2025-03-02,2025,Missouri State,Drake,60,68,B Home,Conference Tournament,,401722553
-2025-03-02,2025,Charlotte,East Carolina,76,78,B Home,Conference Tournament,,401725614
-2025-03-02,2025,Evansville,Illinois State,53,62,B Home,Conference Tournament,,401722559
-2025-03-02,2025,Southern Illinois,Indiana State,77,95,B Home,Conference Tournament,,401722555
-2025-03-02,2025,Colorado,Kansas State,56,65,B Home,Conference Tournament,,401725773
-2025-03-02,2025,Kennesaw State,Liberty,85,80,B Home,Conference Tournament,,401700254
-2025-03-02,2025,Saint Peter's,Marist,57,52,B Home,Conference Tournament,,401706288
-2025-03-02,2025,Quinnipiac,Merrimack,63,73,B Home,Conference Tournament,,401706287
-2025-03-02,2025,Illinois,Michigan,93,73,B Home,Conference Tournament,,401721465
-2025-03-02,2025,Wisconsin,Michigan State,62,71,B Home,Conference Tournament,,401721466
-2025-03-02,2025,Siena,Mount St. Mary's,79,85,B Home,Conference Tournament,,401706285
-2025-03-02,2025,Manhattan,Niagara,85,70,B Home,Conference Tournament,,401727299
-2025-03-02,2025,Fairfield,Sacred Heart,62,83,B Home,Conference Tournament,,401706286
-2025-03-02,2025,Florida Atlantic,South Florida,69,63,B Home,Conference Tournament,,401725613
-2025-03-02,2025,Central Arkansas,Stetson,77,72,Neutral,Round of 64/32,ASUN Championship - 1st Round,401743777
-2025-03-02,2025,Memphis,UAB,88,81,B Home,Conference Tournament,,401725616
-2025-03-02,2025,Valparaiso,UIC,73,77,B Home,Conference Tournament,,401722556
-2025-03-02,2025,Rice,UTSA,56,84,B Home,Conference Tournament,,401725615
-2025-03-03,2025,Texas Southern,Alcorn State,75,59,B Home,Conference Tournament,,401721301
-2025-03-03,2025,Grambling,Bethune-Cookman,71,78,B Home,Conference Tournament,,401722051
-2025-03-03,2025,Maryland Eastern Shore,Coppin State,72,59,B Home,Conference Tournament,,401723701
-2025-03-03,2025,Wake Forest,Duke,60,93,B Home,Conference Tournament,,401724912
-2025-03-03,2025,Houston Christian,East Texas A&M,59,63,B Home,Conference Tournament,,401715981
-2025-03-03,2025,Southern,Florida A&M,73,70,B Home,Conference Tournament,,401722065
-2025-03-03,2025,Queens University,Florida Gulf Coast,71,65,B Home,Regular Season,ASUN Championship - Quarterfinal,401743800
-2025-03-03,2025,Kansas,Houston,59,65,B Home,Conference Tournament,,401725774
-2025-03-03,2025,Northern Arizona,Idaho State,82,79,B Home,Conference Tournament,,401720939
-2025-03-03,2025,Prairie View A&M,Jackson State,74,88,B Home,Conference Tournament,,401722079
-2025-03-03,2025,Eastern Kentucky,Jacksonville,67,78,B Home,Regular Season,ASUN Championship - Quarterfinal,401743799
-2025-03-03,2025,Nicholls,Lamar,53,65,B Home,Conference Tournament,,401720684
-2025-03-03,2025,Central Arkansas,Lipscomb,66,84,B Home,Regular Season,ASUN Championship - Quarterfinal,401743801
-2025-03-03,2025,Eastern Washington,Montana,72,83,B Home,Conference Tournament,,401718492
-2025-03-03,2025,Idaho,Montana State,60,75,B Home,Conference Tournament,,401720658
-2025-03-03,2025,Delaware State,Morgan State,81,87,B Home,Conference Tournament,,401723712
-2025-03-03,2025,Austin Peay,North Alabama,64,90,B Home,Regular Season,ASUN Championship - Quarterfinal,401743802
-2025-03-03,2025,Norfolk State,North Carolina Central,87,91,B Home,Conference Tournament,,401723765
-2025-03-03,2025,Wichita State,North Texas,66,68,B Home,Conference Tournament,,401725617
-2025-03-03,2025,UCLA,Northwestern,73,69,B Home,Conference Tournament,,401721467
-2025-03-03,2025,Incarnate Word,Northwestern State,57,73,B Home,Conference Tournament,,401716134
-2025-03-03,2025,Sacramento State,Portland State,56,59,B Home,Conference Tournament,,401719672
-2025-03-03,2025,Howard,South Carolina State,69,79,B Home,Conference Tournament,,401727818
-2025-03-03,2025,McNeese,Stephen F. Austin,95,64,B Home,Conference Tournament,,401720727
-2025-03-03,2025,LSU New Orleans,Texas A&M-Corpus Christi,62,95,B Home,Conference Tournament,,401720745
-2025-03-03,2025,SE Louisiana,UT Rio Grande Valley,76,77,B Home,Conference Tournament,,401716069
-2025-03-03,2025,Northern Colorado,Weber State,68,63,B Home,Conference Tournament,,401719393
-2025-03-04,2025,Boise State,Air Force,80,57,B Home,Conference Tournament,,401722212
-2025-03-04,2025,Arizona State,Arizona,100,113,B Home,Conference Tournament,,401725775
-2025-03-04,2025,Central Michigan,Ball State,69,67,B Home,Conference Tournament,,401706399
-2025-03-04,2025,NJIT,Binghamton,75,72,B Home,Conference Tournament,,401720864
-2025-03-04,2025,New Hampshire,Bryant,56,90,B Home,Conference Tournament,,401720865
-2025-03-04,2025,Miami (OH),Buffalo,84,69,B Home,Conference Tournament,,401706402
-2025-03-04,2025,San José State,Colorado State,56,83,B Home,Conference Tournament,,401722382
-2025-03-04,2025,Saint Louis,Dayton,67,75,B Home,Conference Tournament,,401724461
-2025-03-04,2025,VCU,Duquesne,71,62,B Home,Conference Tournament,,401724460
-2025-03-04,2025,Wyoming,Fresno State,58,62,B Home,Conference Tournament,,401722439
-2025-03-04,2025,Villanova,Georgetown,73,75,B Home,Conference Tournament,,401719172
-2025-03-04,2025,Miami,Georgia Tech,74,89,B Home,Conference Tournament,,401724914
-2025-03-04,2025,BYU,Iowa State,88,85,B Home,Conference Tournament,,401725776
-2025-03-04,2025,LSU,Kentucky,64,95,B Home,Conference Tournament,,401708429
-2025-03-04,2025,Holy Cross,Lafayette,68,69,B Home,Round of 64/32,Patriot League Championship - 1st Round,401744131
-2025-03-04,2025,UL Monroe,Louisiana,69,73,Neutral,Round of 64/32,Sun Belt Championship - 1st Round,401744209
-2025-03-04,2025,Lehigh,Loyola Maryland,73,77,B Home,Round of 64/32,Patriot League Championship - 1st Round,401744132
-2025-03-04,2025,UMass Lowell,Maine,70,71,B Home,Conference Tournament,,401720866
-2025-03-04,2025,Texas,Mississippi State,87,82,B Home,Conference Tournament,,401708431
-2025-03-04,2025,New Mexico,Nevada,71,67,B Home,Conference Tournament,,401722256
-2025-03-04,2025,Bowling Green,Northern Illinois,71,58,B Home,Conference Tournament,,401706398
-2025-03-04,2025,Detroit Mercy,Northern Kentucky,75,99,B Home,Round of 64/32,Barbasol Horizon League Championship - 1st Round,401743957
-2025-03-04,2025,Green Bay,Oakland,72,96,B Home,Round of 64/32,Barbasol Horizon League Championship - 1st Round,401743955
-2025-03-04,2025,Eastern Michigan,Ohio,83,79,B Home,Conference Tournament,,401706400
-2025-03-04,2025,Nebraska,Ohio State,114,116,B Home,Conference Tournament,,401721468
-2025-03-04,2025,Indiana,Oregon,64,73,B Home,Conference Tournament,,401721469
-2025-03-04,2025,Rutgers,Purdue,71,100,B Home,Conference Tournament,,401721470
-2025-03-04,2025,Syracuse,SMU,75,77,B Home,Conference Tournament,,401724915
-2025-03-04,2025,Creighton,Seton Hall,79,61,B Home,Conference Tournament,,401719187
-2025-03-04,2025,Georgia,South Carolina,73,64,B Home,Conference Tournament,,401708432
-2025-03-04,2025,Coastal Carolina,Southern Miss,63,66,Neutral,Round of 64/32,Sun Belt Championship - 1st Round,401744207
-2025-03-04,2025,Baylor,TCU,61,58,B Home,Conference Tournament,,401725778
-2025-03-04,2025,Auburn,Texas A&M,72,83,B Home,Conference Tournament,,401708433
-2025-03-04,2025,Akron,Toledo,96,87,B Home,Conference Tournament,,401706397
-2025-03-04,2025,Temple,Tulsa,81,77,B Home,Conference Tournament,,401725619
-2025-03-04,2025,San Diego State,UNLV,67,74,B Home,Conference Tournament,,401722363
-2025-03-04,2025,Memphis,UTSA,75,70,B Home,Conference Tournament,,401725618
-2025-03-04,2025,West Virginia,Utah,71,69,B Home,Conference Tournament,,401725777
-2025-03-04,2025,Arkansas,Vanderbilt,90,77,B Home,Conference Tournament,,401708434
-2025-03-04,2025,UAlbany,Vermont,71,79,B Home,Conference Tournament,,401720863
-2025-03-04,2025,Florida State,Virginia,57,60,B Home,Conference Tournament,,401724916
-2025-03-04,2025,North Carolina,Virginia Tech,91,59,B Home,Conference Tournament,,401724913
-2025-03-04,2025,Kent State,Western Michigan,77,76,B Home,Conference Tournament,,401706401
-2025-03-04,2025,IU Indianapolis,Wright State,85,98,B Home,Round of 64/32,Barbasol Horizon League Championship - 1st Round,401743959
-2025-03-05,2025,Florida,Alabama,99,94,B Home,Conference Tournament,,401708428
-2025-03-05,2025,Clemson,Boston College,78,69,B Home,Conference Tournament,,401724917
-2025-03-05,2025,Xavier,Butler,91,78,B Home,Conference Tournament,,401719189
+2025-03-01,2025,Alabama A&M,Alabama State,52,94,B Home,Regular Season,,401721250
+2025-03-01,2025,Prairie View A&M,Alcorn State,55,71,B Home,Regular Season,,401721300
+2025-03-01,2025,Lehigh,Army,89,67,B Home,Regular Season,,401721925
+2025-03-01,2025,West Virginia,BYU,56,77,B Home,Regular Season,,401725771
+2025-03-01,2025,Oklahoma State,Baylor,61,71,B Home,Regular Season,,401725772
+2025-03-01,2025,Southern,Bethune-Cookman,69,70,B Home,Regular Season,,401722050
+2025-03-01,2025,Lafayette,Boston University,64,66,B Home,Regular Season,,401721924
+2025-03-01,2025,Ball State,Bowling Green,52,61,B Home,Regular Season,,401706391
+2025-03-01,2025,Toledo,Buffalo,74,87,B Home,Regular Season,,401706395
+2025-03-01,2025,Cal State Bakersfield,Cal Poly,72,98,B Home,Regular Season,,401714388
+2025-03-01,2025,UC Santa Barbara,Cal State Northridge,77,103,B Home,Regular Season,,401714389
+2025-03-01,2025,Boston College,California,71,82,B Home,Regular Season,,401724906
+2025-03-01,2025,Campbell,Charleston,65,87,B Home,Regular Season,,401714305
+2025-03-01,2025,Purdue Fort Wayne,Cleveland State,57,68,B Home,Regular Season,,401714502
+2025-03-01,2025,American University,Colgate,67,59,B Home,Regular Season,,401721926
+2025-03-01,2025,Utah State,Colorado State,66,93,B Home,Regular Season,,401722405
+2025-03-01,2025,Pennsylvania,Columbia,92,87,B Home,Regular Season,,401721756
+2025-03-01,2025,Brown,Dartmouth,58,78,B Home,Regular Season,,401720966
+2025-03-01,2025,Richmond,Dayton,64,74,B Home,Regular Season,,401724455
+2025-03-01,2025,Coppin State,Delaware State,79,83,B Home,Regular Season,,401723694
+2025-03-01,2025,South Dakota State,Denver,62,78,B Home,Regular Season,,401706570
+2025-03-01,2025,Monmouth,Drexel,61,71,B Home,Regular Season,,401714300
+2025-03-01,2025,Florida State,Duke,65,100,B Home,Regular Season,,401724905
+2025-03-01,2025,George Mason,Duquesne,68,85,B Home,Regular Season,,401724456
+2025-03-01,2025,Incarnate Word,East Texas A&M,75,68,B Home,Regular Season,,401716133
+2025-03-01,2025,Southeast Missouri State,Eastern Illinois,58,73,B Home,Regular Season,,401700382
+2025-03-01,2025,Idaho State,Eastern Washington,78,54,B Home,Regular Season,,401718491
+2025-03-01,2025,Long Island University,Fairleigh Dickinson,74,55,B Home,Regular Season,,401721150
+2025-03-01,2025,Texas A&M,Florida,70,89,B Home,Regular Season,,401708420
+2025-03-01,2025,Grambling,Florida A&M,68,73,B Home,Regular Season,,401722064
+2025-03-01,2025,Jacksonville State,Florida International,84,79,B Home,Regular Season,,401700253
+2025-03-01,2025,Saint Joseph's,Fordham,90,76,B Home,Regular Season,,401724454
+2025-03-01,2025,Boise State,Fresno State,66,61,B Home,Regular Season,,401727154
+2025-03-01,2025,La Salle,George Washington,60,71,B Home,Regular Season,,401724457
+2025-03-01,2025,Marquette,Georgetown,76,61,B Home,Regular Season,,401719170
+2025-03-01,2025,NC State,Georgia Tech,62,87,B Home,Regular Season,,401724903
+2025-03-01,2025,Oakland,Green Bay,87,84,B Home,Regular Season,,401714504
+2025-03-01,2025,Yale,Harvard,69,74,B Home,Regular Season,,401721754
+2025-03-01,2025,UC Davis,Hawai'i,70,78,B Home,Regular Season,,401714391
+2025-03-01,2025,North Carolina A&T,Hofstra,49,70,B Home,Regular Season,,401714303
+2025-03-01,2025,Bucknell,Holy Cross,94,81,B Home,Regular Season,,401721923
+2025-03-01,2025,Cincinnati,Houston,64,73,B Home,Regular Season,,401725770
+2025-03-01,2025,Wright State,IU Indianapolis,84,91,B Home,Regular Season,,401714501
+2025-03-01,2025,Weber State,Idaho,79,81,B Home,Regular Season,,401720556
+2025-03-01,2025,Arizona,Iowa State,67,84,B Home,Regular Season,,401725766
+2025-03-01,2025,Texas Southern,Jackson State,52,67,B Home,Regular Season,,401722078
+2025-03-01,2025,Texas Tech,Kansas,78,73,B Home,Regular Season,,401725768
+2025-03-01,2025,Auburn,Kentucky,94,78,B Home,Regular Season,,401708421
+2025-03-01,2025,McNeese,Lamar,68,66,B Home,Regular Season,,401720683
+2025-03-01,2025,Pittsburgh,Louisville,68,79,B Home,Regular Season,,401724910
+2025-03-01,2025,Bryant,Maine,80,72,B Home,Regular Season,,401720862
+2025-03-01,2025,Morgan State,Maryland Eastern Shore,75,72,B Home,Regular Season,,401723741
+2025-03-01,2025,Rhode Island,Massachusetts,88,91,B Home,Regular Season,,401724459
+2025-03-01,2025,Western Carolina,Mercer,69,81,B Home,Regular Season,,401706496
+2025-03-01,2025,Detroit Mercy,Milwaukee,67,89,B Home,Regular Season,,401714503
+2025-03-01,2025,LSU,Mississippi State,69,81,B Home,Regular Season,,401708423
+2025-03-01,2025,Arkansas-Pine Bluff,Mississippi Valley State,83,58,B Home,Regular Season,,401722117
+2025-03-01,2025,UAlbany,NJIT,86,59,B Home,Regular Season,,401720860
+2025-03-01,2025,Loyola Maryland,Navy,68,81,B Home,Regular Season,,401721927
+2025-03-01,2025,Minnesota,Nebraska,67,65,B Home,Regular Season,,401721461
+2025-03-01,2025,Air Force,New Mexico,71,92,B Home,Regular Season,,401722211
+2025-03-01,2025,Western Kentucky,New Mexico State,47,65,B Home,Regular Season,,401700252
+2025-03-01,2025,Miami,North Carolina,73,92,B Home,Regular Season,,401724909
+2025-03-01,2025,Howard,North Carolina Central,68,72,B Home,Regular Season,,401731884
+2025-03-01,2025,Northern Colorado,Northern Arizona,83,73,B Home,Regular Season,,401719392
+2025-03-01,2025,Western Michigan,Northern Illinois,74,70,B Home,Regular Season,,401706396
+2025-03-01,2025,Youngstown State,Northern Kentucky,79,88,B Home,Regular Season,,401714505
+2025-03-01,2025,Houston Christian,Northwestern State,56,61,B Home,Regular Season,,401715980
+2025-03-01,2025,Miami (OH),Ohio,66,75,B Home,Regular Season,,401706394
+2025-03-01,2025,Oklahoma,Ole Miss,84,87,B Home,Regular Season,,401708422
+2025-03-01,2025,Oral Roberts,Omaha,57,80,B Home,Regular Season,,401706568
+2025-03-01,2025,USC,Oregon,61,82,B Home,Regular Season,,401721462
+2025-03-01,2025,Santa Clara,Pacific,97,66,B Home,Regular Season,,401706761
+2025-03-01,2025,Maryland,Penn State,68,64,B Home,Regular Season,,401721463
+2025-03-01,2025,Washington State,Pepperdine,90,83,B Home,Regular Season,,401706758
+2025-03-01,2025,Montana,Portland State,76,79,B Home,Regular Season,,401719671
+2025-03-01,2025,Gardner-Webb,Presbyterian,57,68,B Home,Regular Season,,401727933
+2025-03-01,2025,UConn,Providence,75,63,B Home,Regular Season,,401719168
+2025-03-01,2025,Charleston Southern,Radford,60,76,B Home,Regular Season,,401727932
+2025-03-01,2025,Little Rock,SIU Edwardsville,65,73,B Home,Regular Season,,401700384
+2025-03-01,2025,Montana State,Sacramento State,87,60,B Home,Regular Season,,401720938
+2025-03-01,2025,Chicago State,Saint Francis,71,80,B Home,Regular Season,,401721129
+2025-03-01,2025,Loyola Chicago,Saint Louis,67,98,B Home,Regular Season,,401724458
+2025-03-01,2025,Oregon State,Saint Mary's,64,74,B Home,Regular Season,,401706760
+2025-03-01,2025,Louisiana Tech,Sam Houston,90,66,B Home,Regular Season,,401700250
+2025-03-01,2025,Portland,San Diego,80,82,B Home,Regular Season,,401706759
+2025-03-01,2025,Gonzaga,San Francisco,95,75,Neutral,Regular Season,,401706757
+2025-03-01,2025,Grand Canyon,Seattle U,63,60,B Home,Regular Season,,401706632
+2025-03-01,2025,Arkansas,South Carolina,53,72,B Home,Regular Season,,401708424
+2025-03-01,2025,Norfolk State,South Carolina State,88,91,B Home,Regular Season,,401723766
+2025-03-01,2025,Longwood,South Carolina Upstate,83,66,B Home,Regular Season,,401727934
+2025-03-01,2025,North Dakota,South Dakota,79,92,B Home,Regular Season,,401706569
+2025-03-01,2025,Seton Hall,St. John's,61,71,B Home,Regular Season,,401719169
+2025-03-01,2025,Kansas City,St. Thomas,59,65,B Home,Regular Season,,401706567
+2025-03-01,2025,SMU,Stanford,68,73,B Home,Regular Season,,401724904
+2025-03-01,2025,Nicholls,Stephen F. Austin,94,70,B Home,Regular Season,,401726452
+2025-03-01,2025,Le Moyne,Stonehill,79,85,B Home,Regular Season,,401721169
+2025-03-01,2025,Elon,Stony Brook,66,71,B Home,Regular Season,,401714304
+2025-03-01,2025,UCF,TCU,78,89,B Home,Regular Season,,401725769
+2025-03-01,2025,Alabama,Tennessee,76,79,B Home,Regular Season,,401708425
+2025-03-01,2025,Southern Indiana,Tennessee State,69,74,B Home,Regular Season,,401700386
+2025-03-01,2025,Lindenwood,Tennessee Tech,76,74,B Home,Regular Season,,401700383
+2025-03-01,2025,Georgia,Texas,83,67,B Home,Regular Season,,401708427
+2025-03-01,2025,SE Louisiana,Texas A&M-Corpus Christi,54,68,B Home,Regular Season,,401716068
+2025-03-01,2025,East Tennessee State,The Citadel,81,66,B Home,Regular Season,,401706494
+2025-03-01,2025,Hampton,Towson,72,75,B Home,Regular Season,,401714302
+2025-03-01,2025,Tulane,Tulsa,79,77,B Home,Regular Season,,401725612
+2025-03-01,2025,Long Beach State,UC Irvine,60,70,B Home,Regular Season,,401709996
+2025-03-01,2025,Cal State Fullerton,UC San Diego,55,100,B Home,Regular Season,,401714390
+2025-03-01,2025,Vermont,UMBC,79,69,B Home,Regular Season,,401720859
+2025-03-01,2025,Binghamton,UMass Lowell,53,79,B Home,Regular Season,,401720861
+2025-03-01,2025,Samford,UNC Greensboro,100,108,B Home,Regular Season,,401706497
+2025-03-01,2025,Delaware,UNC Wilmington,58,88,B Home,Regular Season,,401714301
+2025-03-01,2025,Abilene Christian,UT Arlington,70,59,B Home,Regular Season,,401706634
+2025-03-01,2025,Morehead State,UT Martin,59,47,B Home,Regular Season,,401700385
+2025-03-01,2025,LSU New Orleans,UT Rio Grande Valley,78,88,B Home,Regular Season,,401720744
+2025-03-01,2025,Middle Tennessee,UTEP,76,75,B Home,Regular Season,,401700251
+2025-03-01,2025,Arizona State,Utah,73,99,B Home,Regular Season,,401725767
+2025-03-01,2025,California Baptist,Utah Tech,61,57,B Home,Regular Season,,401706631
+2025-03-01,2025,Southern Utah,Utah Valley,59,100,B Home,Regular Season,,401706633
+2025-03-01,2025,Chattanooga,VMI,91,70,B Home,Regular Season,,401706498
+2025-03-01,2025,Missouri,Vanderbilt,93,97,B Home,Regular Season,,401708426
+2025-03-01,2025,Butler,Villanova,70,80,B Home,Regular Season,,401719167
+2025-03-01,2025,Clemson,Virginia,71,58,B Home,Regular Season,,401724911
+2025-03-01,2025,Syracuse,Virginia Tech,95,101,B Home,Regular Season,,401724907
+2025-03-01,2025,Central Connecticut,Wagner,55,48,B Home,Regular Season,,401721107
+2025-03-01,2025,Notre Dame,Wake Forest,71,74,B Home,Regular Season,,401724908
+2025-03-01,2025,Indiana,Washington,78,62,B Home,Regular Season,,401721464
+2025-03-01,2025,Northeastern,William & Mary,70,68,B Home,Regular Season,,401714299
+2025-03-01,2025,UNC Asheville,Winthrop,90,103,B Home,Regular Season,,401727935
+2025-03-01,2025,Furman,Wofford,78,75,B Home,Regular Season,,401706495
+2025-03-01,2025,San Diego State,Wyoming,72,69,B Home,Regular Season,,401722362
+2025-03-01,2025,Creighton,Xavier,61,83,B Home,Regular Season,,401719164
+2025-03-02,2025,North Florida,Austin Peay,69,90,Neutral,Conference Tournament,ASUN Championship - 1st Round,401743798
+2025-03-02,2025,Murray State,Belmont,60,70,B Home,Regular Season,,401722554
+2025-03-02,2025,Northern Iowa,Bradley,56,73,B Home,Regular Season,,401722552
+2025-03-02,2025,Iona,Canisius,82,52,B Home,Regular Season,,401706289
+2025-03-02,2025,Princeton,Cornell,70,102,B Home,Regular Season,,401721755
+2025-03-02,2025,Missouri State,Drake,60,68,B Home,Regular Season,,401722553
+2025-03-02,2025,Charlotte,East Carolina,76,78,B Home,Regular Season,,401725614
+2025-03-02,2025,Evansville,Illinois State,53,62,B Home,Regular Season,,401722559
+2025-03-02,2025,Southern Illinois,Indiana State,77,95,B Home,Regular Season,,401722555
+2025-03-02,2025,Colorado,Kansas State,56,65,B Home,Regular Season,,401725773
+2025-03-02,2025,Kennesaw State,Liberty,85,80,B Home,Regular Season,,401700254
+2025-03-02,2025,Saint Peter's,Marist,57,52,B Home,Regular Season,,401706288
+2025-03-02,2025,Quinnipiac,Merrimack,63,73,B Home,Regular Season,,401706287
+2025-03-02,2025,Illinois,Michigan,93,73,B Home,Regular Season,,401721465
+2025-03-02,2025,Wisconsin,Michigan State,62,71,B Home,Regular Season,,401721466
+2025-03-02,2025,Siena,Mount St. Mary's,79,85,B Home,Regular Season,,401706285
+2025-03-02,2025,Manhattan,Niagara,85,70,B Home,Regular Season,,401727299
+2025-03-02,2025,Fairfield,Sacred Heart,62,83,B Home,Regular Season,,401706286
+2025-03-02,2025,Florida Atlantic,South Florida,69,63,B Home,Regular Season,,401725613
+2025-03-02,2025,Central Arkansas,Stetson,77,72,Neutral,Conference Tournament,ASUN Championship - 1st Round,401743777
+2025-03-02,2025,Memphis,UAB,88,81,B Home,Regular Season,,401725616
+2025-03-02,2025,Valparaiso,UIC,73,77,B Home,Regular Season,,401722556
+2025-03-02,2025,Rice,UTSA,56,84,B Home,Regular Season,,401725615
+2025-03-03,2025,Texas Southern,Alcorn State,75,59,B Home,Regular Season,,401721301
+2025-03-03,2025,Grambling,Bethune-Cookman,71,78,B Home,Regular Season,,401722051
+2025-03-03,2025,Maryland Eastern Shore,Coppin State,72,59,B Home,Regular Season,,401723701
+2025-03-03,2025,Wake Forest,Duke,60,93,B Home,Regular Season,,401724912
+2025-03-03,2025,Houston Christian,East Texas A&M,59,63,B Home,Regular Season,,401715981
+2025-03-03,2025,Southern,Florida A&M,73,70,B Home,Regular Season,,401722065
+2025-03-03,2025,Queens University,Florida Gulf Coast,71,65,B Home,Conference Tournament,ASUN Championship - Quarterfinal,401743800
+2025-03-03,2025,Kansas,Houston,59,65,B Home,Regular Season,,401725774
+2025-03-03,2025,Northern Arizona,Idaho State,82,79,B Home,Regular Season,,401720939
+2025-03-03,2025,Prairie View A&M,Jackson State,74,88,B Home,Regular Season,,401722079
+2025-03-03,2025,Eastern Kentucky,Jacksonville,67,78,B Home,Conference Tournament,ASUN Championship - Quarterfinal,401743799
+2025-03-03,2025,Nicholls,Lamar,53,65,B Home,Regular Season,,401720684
+2025-03-03,2025,Central Arkansas,Lipscomb,66,84,B Home,Conference Tournament,ASUN Championship - Quarterfinal,401743801
+2025-03-03,2025,Eastern Washington,Montana,72,83,B Home,Regular Season,,401718492
+2025-03-03,2025,Idaho,Montana State,60,75,B Home,Regular Season,,401720658
+2025-03-03,2025,Delaware State,Morgan State,81,87,B Home,Regular Season,,401723712
+2025-03-03,2025,Austin Peay,North Alabama,64,90,B Home,Conference Tournament,ASUN Championship - Quarterfinal,401743802
+2025-03-03,2025,Norfolk State,North Carolina Central,87,91,B Home,Regular Season,,401723765
+2025-03-03,2025,Wichita State,North Texas,66,68,B Home,Regular Season,,401725617
+2025-03-03,2025,UCLA,Northwestern,73,69,B Home,Regular Season,,401721467
+2025-03-03,2025,Incarnate Word,Northwestern State,57,73,B Home,Regular Season,,401716134
+2025-03-03,2025,Sacramento State,Portland State,56,59,B Home,Regular Season,,401719672
+2025-03-03,2025,Howard,South Carolina State,69,79,B Home,Regular Season,,401727818
+2025-03-03,2025,McNeese,Stephen F. Austin,95,64,B Home,Regular Season,,401720727
+2025-03-03,2025,LSU New Orleans,Texas A&M-Corpus Christi,62,95,B Home,Regular Season,,401720745
+2025-03-03,2025,SE Louisiana,UT Rio Grande Valley,76,77,B Home,Regular Season,,401716069
+2025-03-03,2025,Northern Colorado,Weber State,68,63,B Home,Regular Season,,401719393
+2025-03-04,2025,Boise State,Air Force,80,57,B Home,Regular Season,,401722212
+2025-03-04,2025,Arizona State,Arizona,100,113,B Home,Regular Season,,401725775
+2025-03-04,2025,Central Michigan,Ball State,69,67,B Home,Regular Season,,401706399
+2025-03-04,2025,NJIT,Binghamton,75,72,B Home,Regular Season,,401720864
+2025-03-04,2025,New Hampshire,Bryant,56,90,B Home,Regular Season,,401720865
+2025-03-04,2025,Miami (OH),Buffalo,84,69,B Home,Regular Season,,401706402
+2025-03-04,2025,San José State,Colorado State,56,83,B Home,Regular Season,,401722382
+2025-03-04,2025,Saint Louis,Dayton,67,75,B Home,Regular Season,,401724461
+2025-03-04,2025,VCU,Duquesne,71,62,B Home,Regular Season,,401724460
+2025-03-04,2025,Wyoming,Fresno State,58,62,B Home,Regular Season,,401722439
+2025-03-04,2025,Villanova,Georgetown,73,75,B Home,Regular Season,,401719172
+2025-03-04,2025,Miami,Georgia Tech,74,89,B Home,Regular Season,,401724914
+2025-03-04,2025,BYU,Iowa State,88,85,B Home,Regular Season,,401725776
+2025-03-04,2025,LSU,Kentucky,64,95,B Home,Regular Season,,401708429
+2025-03-04,2025,Holy Cross,Lafayette,68,69,B Home,Conference Tournament,Patriot League Championship - 1st Round,401744131
+2025-03-04,2025,UL Monroe,Louisiana,69,73,Neutral,Conference Tournament,Sun Belt Championship - 1st Round,401744209
+2025-03-04,2025,Lehigh,Loyola Maryland,73,77,B Home,Conference Tournament,Patriot League Championship - 1st Round,401744132
+2025-03-04,2025,UMass Lowell,Maine,70,71,B Home,Regular Season,,401720866
+2025-03-04,2025,Texas,Mississippi State,87,82,B Home,Regular Season,,401708431
+2025-03-04,2025,New Mexico,Nevada,71,67,B Home,Regular Season,,401722256
+2025-03-04,2025,Bowling Green,Northern Illinois,71,58,B Home,Regular Season,,401706398
+2025-03-04,2025,Detroit Mercy,Northern Kentucky,75,99,B Home,Conference Tournament,Barbasol Horizon League Championship - 1st Round,401743957
+2025-03-04,2025,Green Bay,Oakland,72,96,B Home,Conference Tournament,Barbasol Horizon League Championship - 1st Round,401743955
+2025-03-04,2025,Eastern Michigan,Ohio,83,79,B Home,Regular Season,,401706400
+2025-03-04,2025,Nebraska,Ohio State,114,116,B Home,Regular Season,,401721468
+2025-03-04,2025,Indiana,Oregon,64,73,B Home,Regular Season,,401721469
+2025-03-04,2025,Rutgers,Purdue,71,100,B Home,Regular Season,,401721470
+2025-03-04,2025,Syracuse,SMU,75,77,B Home,Regular Season,,401724915
+2025-03-04,2025,Creighton,Seton Hall,79,61,B Home,Regular Season,,401719187
+2025-03-04,2025,Georgia,South Carolina,73,64,B Home,Regular Season,,401708432
+2025-03-04,2025,Coastal Carolina,Southern Miss,63,66,Neutral,Conference Tournament,Sun Belt Championship - 1st Round,401744207
+2025-03-04,2025,Baylor,TCU,61,58,B Home,Regular Season,,401725778
+2025-03-04,2025,Auburn,Texas A&M,72,83,B Home,Regular Season,,401708433
+2025-03-04,2025,Akron,Toledo,96,87,B Home,Regular Season,,401706397
+2025-03-04,2025,Temple,Tulsa,81,77,B Home,Regular Season,,401725619
+2025-03-04,2025,San Diego State,UNLV,67,74,B Home,Regular Season,,401722363
+2025-03-04,2025,Memphis,UTSA,75,70,B Home,Regular Season,,401725618
+2025-03-04,2025,West Virginia,Utah,71,69,B Home,Regular Season,,401725777
+2025-03-04,2025,Arkansas,Vanderbilt,90,77,B Home,Regular Season,,401708434
+2025-03-04,2025,UAlbany,Vermont,71,79,B Home,Regular Season,,401720863
+2025-03-04,2025,Florida State,Virginia,57,60,B Home,Regular Season,,401724916
+2025-03-04,2025,North Carolina,Virginia Tech,91,59,B Home,Regular Season,,401724913
+2025-03-04,2025,Kent State,Western Michigan,77,76,B Home,Regular Season,,401706401
+2025-03-04,2025,IU Indianapolis,Wright State,85,98,B Home,Conference Tournament,Barbasol Horizon League Championship - 1st Round,401743959
+2025-03-05,2025,Florida,Alabama,99,94,B Home,Regular Season,,401708428
+2025-03-05,2025,Clemson,Boston College,78,69,B Home,Regular Season,,401724917
+2025-03-05,2025,Xavier,Butler,91,78,B Home,Regular Season,,401719189
 2025-03-05,2025,Le Moyne,Central Connecticut,67,86,B Home,Conference Tournament,Northeast Conference Tournament - Quarterfinal,401744098
-2025-03-05,2025,Kansas State,Cincinnati,54,49,B Home,Conference Tournament,,401725780
+2025-03-05,2025,Kansas State,Cincinnati,54,49,B Home,Regular Season,,401725780
 2025-03-05,2025,Stonehill,Fairleigh Dickinson,56,71,B Home,Conference Tournament,Northeast Conference Tournament - Quarterfinal,401744100
-2025-03-05,2025,George Washington,Fordham,81,58,B Home,Conference Tournament,,401724463
-2025-03-05,2025,South Carolina Upstate,Gardner-Webb,63,83,Neutral,Round of 64/32,Big South Championship - 1st Round,401743885
-2025-03-05,2025,La Salle,George Mason,62,69,B Home,Conference Tournament,,401724464
-2025-03-05,2025,Southern Miss,Georgia Southern,64,78,Neutral,Round of 64/32,Sun Belt Championship - 2nd Round,401744212
-2025-03-05,2025,Oral Roberts,Kansas City,56,73,Neutral,Round of 64/32,Summit League Championship - 1st Round,401744194
-2025-03-05,2025,Morehead State,Lindenwood,65,73,Neutral,Round of 64/32,OVC Championship - 1st Round,401744114
+2025-03-05,2025,George Washington,Fordham,81,58,B Home,Regular Season,,401724463
+2025-03-05,2025,South Carolina Upstate,Gardner-Webb,63,83,Neutral,Conference Tournament,Big South Championship - 1st Round,401743885
+2025-03-05,2025,La Salle,George Mason,62,69,B Home,Regular Season,,401724464
+2025-03-05,2025,Southern Miss,Georgia Southern,64,78,Neutral,Conference Tournament,Sun Belt Championship - 2nd Round,401744212
+2025-03-05,2025,Oral Roberts,Kansas City,56,73,Neutral,Conference Tournament,Summit League Championship - 1st Round,401744194
+2025-03-05,2025,Morehead State,Lindenwood,65,73,Neutral,Conference Tournament,OVC Championship - 1st Round,401744114
 2025-03-05,2025,Chicago State,Long Island University,57,68,B Home,Conference Tournament,Northeast Conference Tournament - Quarterfinal,401744102
-2025-03-05,2025,California,Louisville,68,85,B Home,Conference Tournament,,401724919
-2025-03-05,2025,Davidson,Loyola Chicago,72,82,B Home,Conference Tournament,,401724462
-2025-03-05,2025,Maryland,Michigan,71,65,B Home,Conference Tournament,,401721471
-2025-03-05,2025,Wisconsin,Minnesota,74,67,B Home,Conference Tournament,,401721472
-2025-03-05,2025,Pittsburgh,NC State,63,71,B Home,Conference Tournament,,401724918
-2025-03-05,2025,Stanford,Notre Dame,54,56,B Home,Conference Tournament,,401724920
-2025-03-05,2025,Missouri,Oklahoma,84,96,B Home,Conference Tournament,,401708435
-2025-03-05,2025,Louisiana,Old Dominion,49,67,Neutral,Round of 64/32,Sun Belt Championship - 2nd Round,401744213
-2025-03-05,2025,Tennessee,Ole Miss,76,78,B Home,Conference Tournament,,401708430
-2025-03-05,2025,DePaul,Providence,80,77,B Home,Conference Tournament,,401719188
+2025-03-05,2025,California,Louisville,68,85,B Home,Regular Season,,401724919
+2025-03-05,2025,Davidson,Loyola Chicago,72,82,B Home,Regular Season,,401724462
+2025-03-05,2025,Maryland,Michigan,71,65,B Home,Regular Season,,401721471
+2025-03-05,2025,Wisconsin,Minnesota,74,67,B Home,Regular Season,,401721472
+2025-03-05,2025,Pittsburgh,NC State,63,71,B Home,Regular Season,,401724918
+2025-03-05,2025,Stanford,Notre Dame,54,56,B Home,Regular Season,,401724920
+2025-03-05,2025,Missouri,Oklahoma,84,96,B Home,Regular Season,,401708435
+2025-03-05,2025,Louisiana,Old Dominion,49,67,Neutral,Conference Tournament,Sun Belt Championship - 2nd Round,401744213
+2025-03-05,2025,Tennessee,Ole Miss,76,78,B Home,Regular Season,,401708430
+2025-03-05,2025,DePaul,Providence,80,77,B Home,Regular Season,,401719188
 2025-03-05,2025,Wagner,Saint Francis,55,58,B Home,Conference Tournament,Northeast Conference Tournament - Quarterfinal,401744101
-2025-03-05,2025,Rhode Island,Saint Joseph's,74,91,B Home,Conference Tournament,,401724466
-2025-03-05,2025,Massachusetts,St. Bonaventure,72,73,B Home,Conference Tournament,,401724465
-2025-03-05,2025,UT Martin,Tennessee Tech,70,67,Neutral,Round of 64/32,OVC Championship - 1st Round,401744110
-2025-03-05,2025,Colorado,Texas Tech,75,91,B Home,Conference Tournament,,401725779
-2025-03-05,2025,Oklahoma State,UCF,70,83,B Home,Conference Tournament,,401725781
-2025-03-05,2025,Marquette,UConn,66,72,B Home,Conference Tournament,,401719171
-2025-03-05,2025,Washington,USC,61,92,B Home,Conference Tournament,,401721473
-2025-03-06,2025,Utah Valley,Abilene Christian,73,60,B Home,Conference Tournament,,401706638
-2025-03-06,2025,Lafayette,American University,69,71,B Home,Regular Season,Patriot League Championship - Quarterfinal,401744135
-2025-03-06,2025,Jackson State,Arkansas-Pine Bluff,76,69,B Home,Conference Tournament,,401722080
-2025-03-06,2025,Navy,Boston University,86,78,B Home,Regular Season,Patriot League Championship - Quarterfinal,401744134
-2025-03-06,2025,Loyola Maryland,Bucknell,72,76,B Home,Regular Season,Patriot League Championship - Quarterfinal,401744136
-2025-03-06,2025,Cal State Fullerton,Cal Poly,61,100,B Home,Conference Tournament,,401714347
-2025-03-06,2025,Hawai'i,Cal State Bakersfield,64,76,B Home,Conference Tournament,,401714348
-2025-03-06,2025,Tarleton State,California Baptist,48,68,B Home,Conference Tournament,,401706635
-2025-03-06,2025,Northern Kentucky,Cleveland State,63,68,B Home,Regular Season,Barbasol Horizon League Championship - Quarterfinal,401743961
-2025-03-06,2025,Army,Colgate,55,84,B Home,Regular Season,Patriot League Championship - Quarterfinal,401744133
-2025-03-06,2025,Morgan State,Coppin State,75,82,B Home,Conference Tournament,,401723702
-2025-03-06,2025,Maryland Eastern Shore,Delaware State,68,75,B Home,Conference Tournament,,401723722
-2025-03-06,2025,Tulane,East Carolina,64,73,B Home,Conference Tournament,,401725621
-2025-03-06,2025,Georgia Southern,Georgia State,71,80,Neutral,Regular Season,Sun Belt Championship - 3rd Round,401744220
-2025-03-06,2025,Alabama A&M,Grambling,51,67,B Home,Conference Tournament,,401721251
-2025-03-06,2025,Utah Tech,Grand Canyon,68,90,B Home,Conference Tournament,,401706636
-2025-03-06,2025,Norfolk State,Howard,81,69,B Home,Conference Tournament,,401723767
+2025-03-05,2025,Rhode Island,Saint Joseph's,74,91,B Home,Regular Season,,401724466
+2025-03-05,2025,Massachusetts,St. Bonaventure,72,73,B Home,Regular Season,,401724465
+2025-03-05,2025,UT Martin,Tennessee Tech,70,67,Neutral,Conference Tournament,OVC Championship - 1st Round,401744110
+2025-03-05,2025,Colorado,Texas Tech,75,91,B Home,Regular Season,,401725779
+2025-03-05,2025,Oklahoma State,UCF,70,83,B Home,Regular Season,,401725781
+2025-03-05,2025,Marquette,UConn,66,72,B Home,Regular Season,,401719171
+2025-03-05,2025,Washington,USC,61,92,B Home,Regular Season,,401721473
+2025-03-06,2025,Utah Valley,Abilene Christian,73,60,B Home,Regular Season,,401706638
+2025-03-06,2025,Lafayette,American University,69,71,B Home,Conference Tournament,Patriot League Championship - Quarterfinal,401744135
+2025-03-06,2025,Jackson State,Arkansas-Pine Bluff,76,69,B Home,Regular Season,,401722080
+2025-03-06,2025,Navy,Boston University,86,78,B Home,Conference Tournament,Patriot League Championship - Quarterfinal,401744134
+2025-03-06,2025,Loyola Maryland,Bucknell,72,76,B Home,Conference Tournament,Patriot League Championship - Quarterfinal,401744136
+2025-03-06,2025,Cal State Fullerton,Cal Poly,61,100,B Home,Regular Season,,401714347
+2025-03-06,2025,Hawai'i,Cal State Bakersfield,64,76,B Home,Regular Season,,401714348
+2025-03-06,2025,Tarleton State,California Baptist,48,68,B Home,Regular Season,,401706635
+2025-03-06,2025,Northern Kentucky,Cleveland State,63,68,B Home,Conference Tournament,Barbasol Horizon League Championship - Quarterfinal,401743961
+2025-03-06,2025,Army,Colgate,55,84,B Home,Conference Tournament,Patriot League Championship - Quarterfinal,401744133
+2025-03-06,2025,Morgan State,Coppin State,75,82,B Home,Regular Season,,401723702
+2025-03-06,2025,Maryland Eastern Shore,Delaware State,68,75,B Home,Regular Season,,401723722
+2025-03-06,2025,Tulane,East Carolina,64,73,B Home,Regular Season,,401725621
+2025-03-06,2025,Georgia Southern,Georgia State,71,80,Neutral,Conference Tournament,Sun Belt Championship - 3rd Round,401744220
+2025-03-06,2025,Alabama A&M,Grambling,51,67,B Home,Regular Season,,401721251
+2025-03-06,2025,Utah Tech,Grand Canyon,68,90,B Home,Regular Season,,401706636
+2025-03-06,2025,Norfolk State,Howard,81,69,B Home,Regular Season,,401723767
 2025-03-06,2025,Missouri State,Illinois State,54,70,Neutral,Conference Tournament,MVC Tournament - 1st Round,401744043
-2025-03-06,2025,Michigan State,Iowa,91,84,B Home,Conference Tournament,,401721474
-2025-03-06,2025,Queens University,Lipscomb,75,81,B Home,Regular Season,ASUN Championship - Semifinal,401743803
-2025-03-06,2025,UT Martin,Little Rock,77,82,Neutral,Regular Season,OVC Championship - Quarterfinal,401744117
-2025-03-06,2025,New Mexico State,Louisiana Tech,67,55,B Home,Conference Tournament,,401700257
-2025-03-06,2025,Sacred Heart,Manhattan,74,90,B Home,Conference Tournament,,401706293
-2025-03-06,2025,Merrimack,Marist,75,53,B Home,Conference Tournament,,401706292
-2025-03-06,2025,Liberty,Middle Tennessee,86,81,B Home,Conference Tournament,,401700256
-2025-03-06,2025,Oakland,Milwaukee,72,64,B Home,Regular Season,Barbasol Horizon League Championship - Quarterfinal,401743964
-2025-03-06,2025,Alcorn State,Mississippi Valley State,72,64,B Home,Conference Tournament,,401721302
+2025-03-06,2025,Michigan State,Iowa,91,84,B Home,Regular Season,,401721474
+2025-03-06,2025,Queens University,Lipscomb,75,81,B Home,Conference Tournament,ASUN Championship - Semifinal,401743803
+2025-03-06,2025,UT Martin,Little Rock,77,82,Neutral,Conference Tournament,OVC Championship - Quarterfinal,401744117
+2025-03-06,2025,New Mexico State,Louisiana Tech,67,55,B Home,Regular Season,,401700257
+2025-03-06,2025,Sacred Heart,Manhattan,74,90,B Home,Regular Season,,401706293
+2025-03-06,2025,Merrimack,Marist,75,53,B Home,Regular Season,,401706292
+2025-03-06,2025,Liberty,Middle Tennessee,86,81,B Home,Regular Season,,401700256
+2025-03-06,2025,Oakland,Milwaukee,72,64,B Home,Conference Tournament,Barbasol Horizon League Championship - Quarterfinal,401743964
+2025-03-06,2025,Alcorn State,Mississippi Valley State,72,64,B Home,Regular Season,,401721302
 2025-03-06,2025,Evansville,Murray State,53,74,Neutral,Conference Tournament,MVC Tournament - 1st Round,401744044
-2025-03-06,2025,Jacksonville,North Alabama,63,78,B Home,Regular Season,ASUN Championship - Semifinal,401743804
-2025-03-06,2025,Charlotte,North Texas,64,75,B Home,Conference Tournament,,401725622
-2025-03-06,2025,Kansas City,Omaha,61,70,Neutral,Regular Season,Summit League Championship - Quarterfinal,401744196
+2025-03-06,2025,Jacksonville,North Alabama,63,78,B Home,Conference Tournament,ASUN Championship - Semifinal,401743804
+2025-03-06,2025,Charlotte,North Texas,64,75,B Home,Regular Season,,401725622
+2025-03-06,2025,Kansas City,Omaha,61,70,Neutral,Conference Tournament,Summit League Championship - Quarterfinal,401744196
 2025-03-06,2025,San Diego,Pacific,81,77,Neutral,Conference Tournament,West Coast Conference Tournament - 1st Round,401744257
-2025-03-06,2025,Mount St. Mary's,Quinnipiac,70,79,B Home,Conference Tournament,,401706294
-2025-03-06,2025,Wichita State,Rice,63,59,B Home,Conference Tournament,,401725623
-2025-03-06,2025,Canisius,Rider,50,78,B Home,Conference Tournament,,401706291
-2025-03-06,2025,Wright State,Robert Morris,62,83,B Home,Regular Season,Barbasol Horizon League Championship - Quarterfinal,401743962
-2025-03-06,2025,Niagara,Saint Peter's,78,68,B Home,Conference Tournament,,401727306
-2025-03-06,2025,UTEP,Sam Houston,87,89,B Home,Conference Tournament,,401700258
-2025-03-06,2025,Fairfield,Siena,64,68,B Home,Conference Tournament,,401706290
-2025-03-06,2025,North Carolina Central,South Carolina State,71,87,B Home,Conference Tournament,,401727130
-2025-03-06,2025,Alabama State,Southern,66,65,B Home,Conference Tournament,,401722148
+2025-03-06,2025,Mount St. Mary's,Quinnipiac,70,79,B Home,Regular Season,,401706294
+2025-03-06,2025,Wichita State,Rice,63,59,B Home,Regular Season,,401725623
+2025-03-06,2025,Canisius,Rider,50,78,B Home,Regular Season,,401706291
+2025-03-06,2025,Wright State,Robert Morris,62,83,B Home,Conference Tournament,Barbasol Horizon League Championship - Quarterfinal,401743962
+2025-03-06,2025,Niagara,Saint Peter's,78,68,B Home,Regular Season,,401727306
+2025-03-06,2025,UTEP,Sam Houston,87,89,B Home,Regular Season,,401700258
+2025-03-06,2025,Fairfield,Siena,64,68,B Home,Regular Season,,401706290
+2025-03-06,2025,North Carolina Central,South Carolina State,71,87,B Home,Regular Season,,401727130
+2025-03-06,2025,Alabama State,Southern,66,65,B Home,Regular Season,,401722148
 2025-03-06,2025,Indiana State,Southern Illinois,85,86,Neutral,Conference Tournament,MVC Tournament - 1st Round,401744041
-2025-03-06,2025,Seattle U,Southern Utah,62,39,B Home,Conference Tournament,,401706637
-2025-03-06,2025,Denver,St. Thomas,62,80,Neutral,Regular Season,Summit League Championship - Quarterfinal,401744198
-2025-03-06,2025,Lindenwood,Tennessee State,55,69,Neutral,Regular Season,OVC Championship - Quarterfinal,401744119
-2025-03-06,2025,Old Dominion,Texas State,64,61,Neutral,Regular Season,Sun Belt Championship - 3rd Round,401744223
-2025-03-06,2025,Florida Atlantic,UAB,80,89,B Home,Conference Tournament,,401725620
-2025-03-06,2025,UC Irvine,UC Davis,88,59,B Home,Conference Tournament,,401714349
-2025-03-06,2025,Cal State Northridge,UC Riverside,79,94,B Home,Conference Tournament,,401714350
-2025-03-06,2025,Long Beach State,UC San Diego,63,70,B Home,Conference Tournament,,401709997
+2025-03-06,2025,Seattle U,Southern Utah,62,39,B Home,Regular Season,,401706637
+2025-03-06,2025,Denver,St. Thomas,62,80,Neutral,Conference Tournament,Summit League Championship - Quarterfinal,401744198
+2025-03-06,2025,Lindenwood,Tennessee State,55,69,Neutral,Conference Tournament,OVC Championship - Quarterfinal,401744119
+2025-03-06,2025,Old Dominion,Texas State,64,61,Neutral,Conference Tournament,Sun Belt Championship - 3rd Round,401744223
+2025-03-06,2025,Florida Atlantic,UAB,80,89,B Home,Regular Season,,401725620
+2025-03-06,2025,UC Irvine,UC Davis,88,59,B Home,Regular Season,,401714349
+2025-03-06,2025,Cal State Northridge,UC Riverside,79,94,B Home,Regular Season,,401714350
+2025-03-06,2025,Long Beach State,UC San Diego,63,70,B Home,Regular Season,,401709997
 2025-03-06,2025,Valparaiso,UIC,67,50,Neutral,Conference Tournament,MVC Tournament - 1st Round,401744045
-2025-03-06,2025,Florida International,Western Kentucky,67,76,B Home,Conference Tournament,,401700255
-2025-03-06,2025,Purdue Fort Wayne,Youngstown State,67,72,B Home,Regular Season,Barbasol Horizon League Championship - Quarterfinal,401743960
-2025-03-07,2025,Buffalo,Akron,70,88,B Home,Conference Tournament,,401706404
-2025-03-07,2025,Old Dominion,App State,61,56,Neutral,Regular Season,Sun Belt Championship - 4th Round,401744227
+2025-03-06,2025,Florida International,Western Kentucky,67,76,B Home,Regular Season,,401700255
+2025-03-06,2025,Purdue Fort Wayne,Youngstown State,67,72,B Home,Conference Tournament,Barbasol Horizon League Championship - Quarterfinal,401743960
+2025-03-07,2025,Buffalo,Akron,70,88,B Home,Regular Season,,401706404
+2025-03-07,2025,Old Dominion,App State,61,56,Neutral,Conference Tournament,Sun Belt Championship - 4th Round,401744227
 2025-03-07,2025,Illinois State,Belmont,63,76,Neutral,Conference Tournament,MVC Tournament - Quarterfinal,401744050
-2025-03-07,2025,Colorado State,Boise State,83,73,B Home,Conference Tournament,,401728309
-2025-03-07,2025,Western Michigan,Bowling Green,64,63,B Home,Conference Tournament,,401706408
+2025-03-07,2025,Colorado State,Boise State,83,73,B Home,Regular Season,,401728309
+2025-03-07,2025,Western Michigan,Bowling Green,64,63,B Home,Regular Season,,401706408
 2025-03-07,2025,Murray State,Bradley,62,70,Neutral,Conference Tournament,MVC Tournament - Quarterfinal,401744051
-2025-03-07,2025,Northern Illinois,Central Michigan,83,81,B Home,Conference Tournament,,401706406
-2025-03-07,2025,Stony Brook,Delaware,76,80,Neutral,Round of 64/32,CAA Championship - 1st Round,401746238
+2025-03-07,2025,Northern Illinois,Central Michigan,83,81,B Home,Regular Season,,401706406
+2025-03-07,2025,Stony Brook,Delaware,76,80,Neutral,Conference Tournament,CAA Championship - 1st Round,401746238
 2025-03-07,2025,Southern Illinois,Drake,53,70,Neutral,Conference Tournament,MVC Tournament - Quarterfinal,401744049
-2025-03-07,2025,Gardner-Webb,High Point,64,85,Neutral,Regular Season,Big South Championship - Quarterfinal,401743886
-2025-03-07,2025,North Carolina A&T,Hofstra,55,77,Neutral,Round of 64/32,CAA Championship - 1st Round,401746239
-2025-03-07,2025,Purdue,Illinois,80,88,B Home,Conference Tournament,,401721475
-2025-03-07,2025,Eastern Michigan,Kent State,70,76,B Home,Conference Tournament,,401706405
+2025-03-07,2025,Gardner-Webb,High Point,64,85,Neutral,Conference Tournament,Big South Championship - Quarterfinal,401743886
+2025-03-07,2025,North Carolina A&T,Hofstra,55,77,Neutral,Conference Tournament,CAA Championship - 1st Round,401746239
+2025-03-07,2025,Purdue,Illinois,80,88,B Home,Regular Season,,401721475
+2025-03-07,2025,Eastern Michigan,Kent State,70,76,B Home,Regular Season,,401706405
 2025-03-07,2025,San Diego,Loyola Marymount,74,100,Neutral,Conference Tournament,West Coast Conference Tournament - 2nd Round,401744259
-2025-03-07,2025,Georgia State,Marshall,76,79,Neutral,Regular Season,Sun Belt Championship - 4th Round,401744225
-2025-03-07,2025,South Florida,Memphis,68,84,B Home,Conference Tournament,,401725624
-2025-03-07,2025,Western Carolina,Mercer,66,67,Neutral,Round of 64/32,SoCon Championship - 1st Round,401744182
-2025-03-07,2025,Ball State,Miami (OH),66,79,B Home,Conference Tournament,,401706403
-2025-03-07,2025,UNLV,New Mexico,67,81,B Home,Conference Tournament,,401728316
-2025-03-07,2025,South Dakota,North Dakota State,85,84,Neutral,Regular Season,Summit League Championship - Quarterfinal,401744199
+2025-03-07,2025,Georgia State,Marshall,76,79,Neutral,Conference Tournament,Sun Belt Championship - 4th Round,401744225
+2025-03-07,2025,South Florida,Memphis,68,84,B Home,Regular Season,,401725624
+2025-03-07,2025,Western Carolina,Mercer,66,67,Neutral,Conference Tournament,SoCon Championship - 1st Round,401744182
+2025-03-07,2025,Ball State,Miami (OH),66,79,B Home,Regular Season,,401706403
+2025-03-07,2025,UNLV,New Mexico,67,81,B Home,Regular Season,,401728316
+2025-03-07,2025,South Dakota,North Dakota State,85,84,Neutral,Conference Tournament,Summit League Championship - Quarterfinal,401744199
 2025-03-07,2025,Valparaiso,Northern Iowa,64,63,Neutral,Conference Tournament,MVC Tournament - Quarterfinal,401744052
 2025-03-07,2025,Pepperdine,Portland,86,73,Neutral,Conference Tournament,West Coast Conference Tournament - 2nd Round,401744258
-2025-03-07,2025,Presbyterian,Radford,69,74,Neutral,Regular Season,Big South Championship - Quarterfinal,401743887
-2025-03-07,2025,Tennessee State,SIU Edwardsville,69,71,Neutral,Regular Season,OVC Championship - Semifinal,401744279
-2025-03-07,2025,North Dakota,South Dakota State,85,69,Neutral,Regular Season,Summit League Championship - Quarterfinal,401744200
-2025-03-07,2025,Little Rock,Southeast Missouri State,59,78,Neutral,Regular Season,OVC Championship - Semifinal,401744278
-2025-03-07,2025,Ohio,Toledo,82,96,B Home,Conference Tournament,,401706407
-2025-03-07,2025,Charleston Southern,UNC Asheville,60,80,Neutral,Regular Season,Big South Championship - Quarterfinal,401743888
-2025-03-07,2025,Dayton,VCU,79,76,B Home,Conference Tournament,,401724467
-2025-03-07,2025,The Citadel,VMI,62,73,Neutral,Round of 64/32,SoCon Championship - 1st Round,401744185
-2025-03-07,2025,Longwood,Winthrop,79,88,Neutral,Regular Season,Big South Championship - Quarterfinal,401743889
-2025-03-08,2025,Grand Canyon,Abilene Christian,81,82,B Home,Conference Tournament,,401706640
-2025-03-08,2025,Texas Tech,Arizona State,85,57,B Home,Conference Tournament,,401725785
-2025-03-08,2025,Mississippi State,Arkansas,92,93,B Home,Conference Tournament,,401708436
-2025-03-08,2025,Marshall,Arkansas State,74,77,Neutral,Regular Season,Sun Belt Championship - Quarterfinal,401744228
-2025-03-08,2025,Alcorn State,Arkansas-Pine Bluff,65,63,B Home,Conference Tournament,,401721303
-2025-03-08,2025,Alabama,Auburn,93,91,B Home,Conference Tournament,,401708437
-2025-03-08,2025,Utah,BYU,74,85,B Home,Conference Tournament,,401725783
-2025-03-08,2025,Houston,Baylor,65,61,B Home,Conference Tournament,,401725787
-2025-03-08,2025,Florida A&M,Bethune-Cookman,75,76,B Home,Conference Tournament,,401722052
+2025-03-07,2025,Presbyterian,Radford,69,74,Neutral,Conference Tournament,Big South Championship - Quarterfinal,401743887
+2025-03-07,2025,Tennessee State,SIU Edwardsville,69,71,Neutral,Conference Tournament,OVC Championship - Semifinal,401744279
+2025-03-07,2025,North Dakota,South Dakota State,85,69,Neutral,Conference Tournament,Summit League Championship - Quarterfinal,401744200
+2025-03-07,2025,Little Rock,Southeast Missouri State,59,78,Neutral,Conference Tournament,OVC Championship - Semifinal,401744278
+2025-03-07,2025,Ohio,Toledo,82,96,B Home,Regular Season,,401706407
+2025-03-07,2025,Charleston Southern,UNC Asheville,60,80,Neutral,Conference Tournament,Big South Championship - Quarterfinal,401743888
+2025-03-07,2025,Dayton,VCU,79,76,B Home,Regular Season,,401724467
+2025-03-07,2025,The Citadel,VMI,62,73,Neutral,Conference Tournament,SoCon Championship - 1st Round,401744185
+2025-03-07,2025,Longwood,Winthrop,79,88,Neutral,Conference Tournament,Big South Championship - Quarterfinal,401743889
+2025-03-08,2025,Grand Canyon,Abilene Christian,81,82,B Home,Regular Season,,401706640
+2025-03-08,2025,Texas Tech,Arizona State,85,57,B Home,Regular Season,,401725785
+2025-03-08,2025,Mississippi State,Arkansas,92,93,B Home,Regular Season,,401708436
+2025-03-08,2025,Marshall,Arkansas State,74,77,Neutral,Conference Tournament,Sun Belt Championship - Quarterfinal,401744228
+2025-03-08,2025,Alcorn State,Arkansas-Pine Bluff,65,63,B Home,Regular Season,,401721303
+2025-03-08,2025,Alabama,Auburn,93,91,B Home,Regular Season,,401708437
+2025-03-08,2025,Utah,BYU,74,85,B Home,Regular Season,,401725783
+2025-03-08,2025,Houston,Baylor,65,61,B Home,Regular Season,,401725787
+2025-03-08,2025,Florida A&M,Bethune-Cookman,75,76,B Home,Regular Season,,401722052
 2025-03-08,2025,Valparaiso,Bradley,65,70,Neutral,Conference Tournament,MVC Tournament - Semifinal,401744058
-2025-03-08,2025,Yale,Brown,70,61,B Home,Conference Tournament,,401721757
+2025-03-08,2025,Yale,Brown,70,61,B Home,Regular Season,,401721757
 2025-03-08,2025,UMBC,Bryant,74,85,B Home,Regular Season,America East Playoffs - Quarterfinal,401745881
-2025-03-08,2025,UC Riverside,Cal State Fullerton,64,59,B Home,Conference Tournament,,401714395
-2025-03-08,2025,Hawai'i,Cal State Northridge,73,82,B Home,Conference Tournament,,401714394
-2025-03-08,2025,UT Arlington,California Baptist,68,70,B Home,Conference Tournament,,401706639
-2025-03-08,2025,Delaware,Campbell,79,62,Neutral,Round of 64/32,CAA Championship - 2nd Round,401746241
+2025-03-08,2025,UC Riverside,Cal State Fullerton,64,59,B Home,Regular Season,,401714395
+2025-03-08,2025,Hawai'i,Cal State Northridge,73,82,B Home,Regular Season,,401714394
+2025-03-08,2025,UT Arlington,California Baptist,68,70,B Home,Regular Season,,401706639
+2025-03-08,2025,Delaware,Campbell,79,62,Neutral,Conference Tournament,CAA Championship - 2nd Round,401746241
 2025-03-08,2025,Fairleigh Dickinson,Central Connecticut,72,76,B Home,Conference Tournament,Northeast Conference Tournament - Semifinal,401744106
-2025-03-08,2025,Mercer,Chattanooga,61,76,Neutral,Regular Season,SoCon Championship - Quarterfinal,401744187
-2025-03-08,2025,Virginia Tech,Clemson,47,65,B Home,Conference Tournament,,401724929
-2025-03-08,2025,TCU,Colorado,56,76,B Home,Conference Tournament,,401725786
-2025-03-08,2025,Columbia,Cornell,81,100,B Home,Conference Tournament,,401721759
-2025-03-08,2025,Butler,Creighton,74,87,B Home,Conference Tournament,,401719194
-2025-03-08,2025,St. Bonaventure,Davidson,64,61,B Home,Conference Tournament,,401724470
-2025-03-08,2025,Georgetown,DePaul,77,83,B Home,Conference Tournament,,401719190
+2025-03-08,2025,Mercer,Chattanooga,61,76,Neutral,Conference Tournament,SoCon Championship - Quarterfinal,401744187
+2025-03-08,2025,Virginia Tech,Clemson,47,65,B Home,Regular Season,,401724929
+2025-03-08,2025,TCU,Colorado,56,76,B Home,Regular Season,,401725786
+2025-03-08,2025,Columbia,Cornell,81,100,B Home,Regular Season,,401721759
+2025-03-08,2025,Butler,Creighton,74,87,B Home,Regular Season,,401719194
+2025-03-08,2025,St. Bonaventure,Davidson,64,61,B Home,Regular Season,,401724470
+2025-03-08,2025,Georgetown,DePaul,77,83,B Home,Regular Season,,401719190
 2025-03-08,2025,Belmont,Drake,50,57,Neutral,Conference Tournament,MVC Tournament - Semifinal,401744056
-2025-03-08,2025,Elon,Drexel,74,91,Neutral,Round of 64/32,CAA Championship - 2nd Round,401746240
-2025-03-08,2025,Wofford,East Tennessee State,72,60,Neutral,Regular Season,SoCon Championship - Quarterfinal,401744190
-2025-03-08,2025,Quinnipiac,Fairfield,74,83,B Home,Conference Tournament,,401706299
-2025-03-08,2025,Ole Miss,Florida,71,90,B Home,Conference Tournament,,401708438
-2025-03-08,2025,SMU,Florida State,69,76,B Home,Conference Tournament,,401724928
-2025-03-08,2025,Vanderbilt,Georgia,68,79,B Home,Conference Tournament,,401708439
-2025-03-08,2025,Alabama State,Grambling,59,47,B Home,Conference Tournament,,401728540
-2025-03-08,2025,Dartmouth,Harvard,58,66,B Home,Conference Tournament,,401720967
-2025-03-08,2025,Radford,High Point,73,76,Neutral,Regular Season,Big South Championship - Semifinal,401743890
-2025-03-08,2025,Ohio State,Indiana,60,66,B Home,Conference Tournament,,401721476
-2025-03-08,2025,Sacred Heart,Iona,88,90,B Home,Conference Tournament,,401706295
-2025-03-08,2025,Kennesaw State,Jacksonville State,74,70,B Home,Conference Tournament,,401700259
-2025-03-08,2025,Arizona,Kansas,76,83,B Home,Conference Tournament,,401725782
-2025-03-08,2025,Iowa State,Kansas State,73,57,B Home,Conference Tournament,,401725784
-2025-03-08,2025,Texas A&M,LSU,66,52,B Home,Conference Tournament,,401708440
-2025-03-08,2025,Saint Joseph's,La Salle,74,81,B Home,Conference Tournament,,401724469
-2025-03-08,2025,Cal Poly,Long Beach State,83,69,B Home,Conference Tournament,,401709998
+2025-03-08,2025,Elon,Drexel,74,91,Neutral,Conference Tournament,CAA Championship - 2nd Round,401746240
+2025-03-08,2025,Wofford,East Tennessee State,72,60,Neutral,Conference Tournament,SoCon Championship - Quarterfinal,401744190
+2025-03-08,2025,Quinnipiac,Fairfield,74,83,B Home,Regular Season,,401706299
+2025-03-08,2025,Ole Miss,Florida,71,90,B Home,Regular Season,,401708438
+2025-03-08,2025,SMU,Florida State,69,76,B Home,Regular Season,,401724928
+2025-03-08,2025,Vanderbilt,Georgia,68,79,B Home,Regular Season,,401708439
+2025-03-08,2025,Alabama State,Grambling,59,47,B Home,Regular Season,,401728540
+2025-03-08,2025,Dartmouth,Harvard,58,66,B Home,Regular Season,,401720967
+2025-03-08,2025,Radford,High Point,73,76,Neutral,Conference Tournament,Big South Championship - Semifinal,401743890
+2025-03-08,2025,Ohio State,Indiana,60,66,B Home,Regular Season,,401721476
+2025-03-08,2025,Sacred Heart,Iona,88,90,B Home,Regular Season,,401706295
+2025-03-08,2025,Kennesaw State,Jacksonville State,74,70,B Home,Regular Season,,401700259
+2025-03-08,2025,Arizona,Kansas,76,83,B Home,Regular Season,,401725782
+2025-03-08,2025,Iowa State,Kansas State,73,57,B Home,Regular Season,,401725784
+2025-03-08,2025,Texas A&M,LSU,66,52,B Home,Regular Season,,401708440
+2025-03-08,2025,Saint Joseph's,La Salle,74,81,B Home,Regular Season,,401724469
+2025-03-08,2025,Cal Poly,Long Beach State,83,69,B Home,Regular Season,,401709998
 2025-03-08,2025,Saint Francis,Long Island University,71,68,B Home,Conference Tournament,Northeast Conference Tournament - Semifinal,401744105
-2025-03-08,2025,UTEP,Louisiana Tech,58,76,B Home,Conference Tournament,,401700263
-2025-03-08,2025,Stanford,Louisville,48,68,B Home,Conference Tournament,,401724926
+2025-03-08,2025,UTEP,Louisiana Tech,58,76,B Home,Regular Season,,401700263
+2025-03-08,2025,Stanford,Louisville,48,68,B Home,Regular Season,,401724926
 2025-03-08,2025,UMass Lowell,Maine,64,72,B Home,Regular Season,America East Playoffs - Quarterfinal,401745883
-2025-03-08,2025,Siena,Manhattan,66,78,B Home,Conference Tournament,,401706296
-2025-03-08,2025,St. John's,Marquette,86,84,B Home,Conference Tournament,,401719193
-2025-03-08,2025,Northwestern,Maryland,61,74,B Home,Conference Tournament,,401721477
-2025-03-08,2025,Loyola Chicago,Massachusetts,74,51,B Home,Conference Tournament,,401724468
-2025-03-08,2025,NC State,Miami,70,72,B Home,Conference Tournament,,401724925
-2025-03-08,2025,Florida International,Middle Tennessee,56,78,B Home,Conference Tournament,,401700260
-2025-03-08,2025,Jackson State,Mississippi Valley State,66,62,B Home,Conference Tournament,,401722081
-2025-03-08,2025,Kentucky,Missouri,91,83,B Home,Conference Tournament,,401708441
-2025-03-08,2025,Hofstra,Monmouth,60,65,Neutral,Round of 64/32,CAA Championship - 2nd Round,401746243
-2025-03-08,2025,Marist,Mount St. Mary's,52,62,B Home,Conference Tournament,,401706297
-2025-03-08,2025,Duke,North Carolina,82,69,B Home,Conference Tournament,,401724922
-2025-03-08,2025,Hampton,Northeastern,70,65,Neutral,Round of 64/32,CAA Championship - 2nd Round,401746242
-2025-03-08,2025,Eastern Washington,Northern Arizona,53,66,Neutral,Round of 64/32,Big Sky Championship - 1st Round,401745789
-2025-03-08,2025,California,Notre Dame,110,112,B Home,Conference Tournament,,401724927
-2025-03-08,2025,Cincinnati,Oklahoma State,67,78,B Home,Conference Tournament,,401725789
-2025-03-08,2025,South Dakota,Omaha,75,100,Neutral,Regular Season,Summit League Championship - Semifinal,401744201
+2025-03-08,2025,Siena,Manhattan,66,78,B Home,Regular Season,,401706296
+2025-03-08,2025,St. John's,Marquette,86,84,B Home,Regular Season,,401719193
+2025-03-08,2025,Northwestern,Maryland,61,74,B Home,Regular Season,,401721477
+2025-03-08,2025,Loyola Chicago,Massachusetts,74,51,B Home,Regular Season,,401724468
+2025-03-08,2025,NC State,Miami,70,72,B Home,Regular Season,,401724925
+2025-03-08,2025,Florida International,Middle Tennessee,56,78,B Home,Regular Season,,401700260
+2025-03-08,2025,Jackson State,Mississippi Valley State,66,62,B Home,Regular Season,,401722081
+2025-03-08,2025,Kentucky,Missouri,91,83,B Home,Regular Season,,401708441
+2025-03-08,2025,Hofstra,Monmouth,60,65,Neutral,Conference Tournament,CAA Championship - 2nd Round,401746243
+2025-03-08,2025,Marist,Mount St. Mary's,52,62,B Home,Regular Season,,401706297
+2025-03-08,2025,Duke,North Carolina,82,69,B Home,Regular Season,,401724922
+2025-03-08,2025,Hampton,Northeastern,70,65,Neutral,Conference Tournament,CAA Championship - 2nd Round,401746242
+2025-03-08,2025,Eastern Washington,Northern Arizona,53,66,Neutral,Conference Tournament,Big Sky Championship - 1st Round,401745789
+2025-03-08,2025,California,Notre Dame,110,112,B Home,Regular Season,,401724927
+2025-03-08,2025,Cincinnati,Oklahoma State,67,78,B Home,Regular Season,,401725789
+2025-03-08,2025,South Dakota,Omaha,75,100,Neutral,Conference Tournament,Summit League Championship - Semifinal,401744201
 2025-03-08,2025,Pepperdine,Oregon State,77,73,Neutral,Conference Tournament,West Coast Conference Tournament - 3rd Round,401744260
-2025-03-08,2025,Boston College,Pittsburgh,67,93,B Home,Conference Tournament,,401724921
-2025-03-08,2025,Texas Southern,Prairie View A&M,80,68,B Home,Conference Tournament,,401722133
-2025-03-08,2025,Pennsylvania,Princeton,71,95,B Home,Conference Tournament,,401721758
-2025-03-08,2025,Fordham,Rhode Island,67,86,B Home,Conference Tournament,,401724472
-2025-03-08,2025,George Mason,Richmond,64,60,B Home,Conference Tournament,,401724473
-2025-03-08,2025,Niagara,Rider,76,77,B Home,Conference Tournament,,401706300
-2025-03-08,2025,Duquesne,Saint Louis,88,90,B Home,Conference Tournament,,401724471
-2025-03-08,2025,Canisius,Saint Peter's,62,70,B Home,Conference Tournament,,401706298
-2025-03-08,2025,New Mexico State,Sam Houston,69,76,B Home,Conference Tournament,,401700262
-2025-03-08,2025,Furman,Samford,95,78,Neutral,Regular Season,SoCon Championship - Quarterfinal,401744188
-2025-03-08,2025,Nevada,San Diego State,61,80,B Home,Conference Tournament,,401722257
-2025-03-08,2025,Fresno State,San José State,68,92,B Home,Conference Tournament,,401722383
-2025-03-08,2025,SIU Edwardsville,Southeast Missouri State,69,48,Neutral,Regular Season,OVC Championship - Final,401744124
-2025-03-08,2025,Alabama A&M,Southern,57,71,B Home,Conference Tournament,,401721252
-2025-03-08,2025,North Dakota,St. Thomas,69,85,Neutral,Regular Season,Summit League Championship - Semifinal,401744203
-2025-03-08,2025,Virginia,Syracuse,70,84,B Home,Conference Tournament,,401724923
-2025-03-08,2025,Utah Valley,Tarleton State,71,66,B Home,Conference Tournament,,401706642
-2025-03-08,2025,South Carolina,Tennessee,65,75,B Home,Conference Tournament,,401729827
-2025-03-08,2025,Oklahoma,Texas,76,72,B Home,Conference Tournament,,401708442
-2025-03-08,2025,Old Dominion,Troy,59,75,Neutral,Regular Season,Sun Belt Championship - Quarterfinal,401744229
+2025-03-08,2025,Boston College,Pittsburgh,67,93,B Home,Regular Season,,401724921
+2025-03-08,2025,Texas Southern,Prairie View A&M,80,68,B Home,Regular Season,,401722133
+2025-03-08,2025,Pennsylvania,Princeton,71,95,B Home,Regular Season,,401721758
+2025-03-08,2025,Fordham,Rhode Island,67,86,B Home,Regular Season,,401724472
+2025-03-08,2025,George Mason,Richmond,64,60,B Home,Regular Season,,401724473
+2025-03-08,2025,Niagara,Rider,76,77,B Home,Regular Season,,401706300
+2025-03-08,2025,Duquesne,Saint Louis,88,90,B Home,Regular Season,,401724471
+2025-03-08,2025,Canisius,Saint Peter's,62,70,B Home,Regular Season,,401706298
+2025-03-08,2025,New Mexico State,Sam Houston,69,76,B Home,Regular Season,,401700262
+2025-03-08,2025,Furman,Samford,95,78,Neutral,Conference Tournament,SoCon Championship - Quarterfinal,401744188
+2025-03-08,2025,Nevada,San Diego State,61,80,B Home,Regular Season,,401722257
+2025-03-08,2025,Fresno State,San José State,68,92,B Home,Regular Season,,401722383
+2025-03-08,2025,SIU Edwardsville,Southeast Missouri State,69,48,Neutral,Conference Tournament,OVC Championship - Final,401744124
+2025-03-08,2025,Alabama A&M,Southern,57,71,B Home,Regular Season,,401721252
+2025-03-08,2025,North Dakota,St. Thomas,69,85,Neutral,Conference Tournament,Summit League Championship - Semifinal,401744203
+2025-03-08,2025,Virginia,Syracuse,70,84,B Home,Regular Season,,401724923
+2025-03-08,2025,Utah Valley,Tarleton State,71,66,B Home,Regular Season,,401706642
+2025-03-08,2025,South Carolina,Tennessee,65,75,B Home,Regular Season,,401729827
+2025-03-08,2025,Oklahoma,Texas,76,72,B Home,Regular Season,,401708442
+2025-03-08,2025,Old Dominion,Troy,59,75,Neutral,Conference Tournament,Sun Belt Championship - Quarterfinal,401744229
 2025-03-08,2025,Binghamton,UAlbany,66,69,B Home,Regular Season,America East Playoffs - Quarterfinal,401745884
-2025-03-08,2025,UC San Diego,UC Davis,68,57,B Home,Conference Tournament,,401714393
-2025-03-08,2025,UC Irvine,UC Santa Barbara,97,88,B Home,Conference Tournament,,401714392
-2025-03-08,2025,USC,UCLA,63,90,B Home,Conference Tournament,,401721478
-2025-03-08,2025,Seton Hall,UConn,50,81,B Home,Conference Tournament,,401719191
-2025-03-08,2025,Winthrop,UNC Asheville,86,67,Neutral,Regular Season,Big South Championship - Semifinal,401743891
-2025-03-08,2025,VMI,UNC Greensboro,64,57,Neutral,Regular Season,SoCon Championship - Quarterfinal,401744189
-2025-03-08,2025,Air Force,Utah State,47,87,B Home,Conference Tournament,,401722213
-2025-03-08,2025,Seattle U,Utah Tech,70,65,B Home,Conference Tournament,,401706641
+2025-03-08,2025,UC San Diego,UC Davis,68,57,B Home,Regular Season,,401714393
+2025-03-08,2025,UC Irvine,UC Santa Barbara,97,88,B Home,Regular Season,,401714392
+2025-03-08,2025,USC,UCLA,63,90,B Home,Regular Season,,401721478
+2025-03-08,2025,Seton Hall,UConn,50,81,B Home,Regular Season,,401719191
+2025-03-08,2025,Winthrop,UNC Asheville,86,67,Neutral,Conference Tournament,Big South Championship - Semifinal,401743891
+2025-03-08,2025,VMI,UNC Greensboro,64,57,Neutral,Conference Tournament,SoCon Championship - Quarterfinal,401744189
+2025-03-08,2025,Air Force,Utah State,47,87,B Home,Regular Season,,401722213
+2025-03-08,2025,Seattle U,Utah Tech,70,65,B Home,Regular Season,,401706641
 2025-03-08,2025,New Hampshire,Vermont,57,64,B Home,Regular Season,America East Playoffs - Quarterfinal,401745882
-2025-03-08,2025,Georgia Tech,Wake Forest,43,69,B Home,Conference Tournament,,401724924
+2025-03-08,2025,Georgia Tech,Wake Forest,43,69,B Home,Regular Season,,401724924
 2025-03-08,2025,Loyola Marymount,Washington State,77,94,Neutral,Conference Tournament,West Coast Conference Tournament - 3rd Round,401744261
-2025-03-08,2025,Sacramento State,Weber State,70,83,Neutral,Round of 64/32,Big Sky Championship - 1st Round,401745788
-2025-03-08,2025,UCF,West Virginia,65,72,B Home,Conference Tournament,,401725788
-2025-03-08,2025,Liberty,Western Kentucky,90,61,B Home,Conference Tournament,,401700261
-2025-03-08,2025,Penn State,Wisconsin,86,75,B Home,Conference Tournament,,401721479
-2025-03-08,2025,Providence,Xavier,68,76,B Home,Conference Tournament,,401719192
-2025-03-09,2025,Colgate,American University,62,72,B Home,Regular Season,Patriot League Championship - Semifinal,401744141
-2025-03-09,2025,Navy,Bucknell,83,77,B Home,Regular Season,Patriot League Championship - Semifinal,401744139
-2025-03-09,2025,Monmouth,Charleston,78,79,Neutral,Regular Season,CAA Championship - Quarterfinal,401746247
-2025-03-09,2025,UTSA,Charlotte,83,80,B Home,Conference Tournament,,401725626
-2025-03-09,2025,Furman,Chattanooga,80,77,Neutral,Regular Season,SoCon Championship - Semifinal,401744191
+2025-03-08,2025,Sacramento State,Weber State,70,83,Neutral,Conference Tournament,Big Sky Championship - 1st Round,401745788
+2025-03-08,2025,UCF,West Virginia,65,72,B Home,Regular Season,,401725788
+2025-03-08,2025,Liberty,Western Kentucky,90,61,B Home,Regular Season,,401700261
+2025-03-08,2025,Penn State,Wisconsin,86,75,B Home,Regular Season,,401721479
+2025-03-08,2025,Providence,Xavier,68,76,B Home,Regular Season,,401719192
+2025-03-09,2025,Colgate,American University,62,72,B Home,Conference Tournament,Patriot League Championship - Semifinal,401744141
+2025-03-09,2025,Navy,Bucknell,83,77,B Home,Conference Tournament,Patriot League Championship - Semifinal,401744139
+2025-03-09,2025,Monmouth,Charleston,78,79,Neutral,Conference Tournament,CAA Championship - Quarterfinal,401746247
+2025-03-09,2025,UTSA,Charlotte,83,80,B Home,Regular Season,,401725626
+2025-03-09,2025,Furman,Chattanooga,80,77,Neutral,Conference Tournament,SoCon Championship - Semifinal,401744191
 2025-03-09,2025,Bradley,Drake,48,63,Neutral,Conference Tournament,MVC Tournament - Final,401744061
-2025-03-09,2025,East Carolina,Florida Atlantic,53,81,B Home,Conference Tournament,,401725625
-2025-03-09,2025,Winthrop,High Point,69,81,Neutral,Regular Season,Big South Championship - Final,401743892
-2025-03-09,2025,Troy,James Madison,79,60,Neutral,Regular Season,Sun Belt Championship - Semifinal,401744235
-2025-03-09,2025,North Alabama,Lipscomb,65,76,B Home,Regular Season,ASUN Championship - Final,401743805
-2025-03-09,2025,Michigan,Michigan State,62,79,B Home,Conference Tournament,,401721480
-2025-03-09,2025,Northern Arizona,Montana,65,74,Neutral,Round of 64/32,Big Sky Championship - 2nd Round,401745791
-2025-03-09,2025,Iowa,Nebraska,83,68,B Home,Conference Tournament,,401721481
-2025-03-09,2025,Weber State,Northern Colorado,52,76,Neutral,Round of 64/32,Big Sky Championship - 2nd Round,401745790
-2025-03-09,2025,St. Thomas,Omaha,75,85,Neutral,Regular Season,Summit League Championship - Final,401744205
-2025-03-09,2025,Minnesota,Rutgers,67,75,B Home,Conference Tournament,,401721482
+2025-03-09,2025,East Carolina,Florida Atlantic,53,81,B Home,Regular Season,,401725625
+2025-03-09,2025,Winthrop,High Point,69,81,Neutral,Conference Tournament,Big South Championship - Final,401743892
+2025-03-09,2025,Troy,James Madison,79,60,Neutral,Conference Tournament,Sun Belt Championship - Semifinal,401744235
+2025-03-09,2025,North Alabama,Lipscomb,65,76,B Home,Conference Tournament,ASUN Championship - Final,401743805
+2025-03-09,2025,Michigan,Michigan State,62,79,B Home,Regular Season,,401721480
+2025-03-09,2025,Northern Arizona,Montana,65,74,Neutral,Conference Tournament,Big Sky Championship - 2nd Round,401745791
+2025-03-09,2025,Iowa,Nebraska,83,68,B Home,Regular Season,,401721481
+2025-03-09,2025,Weber State,Northern Colorado,52,76,Neutral,Conference Tournament,Big Sky Championship - 2nd Round,401745790
+2025-03-09,2025,St. Thomas,Omaha,75,85,Neutral,Conference Tournament,Summit League Championship - Final,401744205
+2025-03-09,2025,Minnesota,Rutgers,67,75,B Home,Regular Season,,401721482
 2025-03-09,2025,Incarnate Word,SE Louisiana,71,67,Neutral,Conference Tournament,Southland Tournament - 1st Round,401745821
 2025-03-09,2025,Washington State,San Francisco,75,86,Neutral,Conference Tournament,West Coast Conference Tournament - Quarterfinal,401744263
 2025-03-09,2025,Pepperdine,Santa Clara,78,76,Neutral,Conference Tournament,West Coast Conference Tournament - Quarterfinal,401744262
-2025-03-09,2025,Arkansas State,South Alabama,74,71,Neutral,Regular Season,Sun Belt Championship - Semifinal,401744232
-2025-03-09,2025,North Texas,Temple,61,66,B Home,Conference Tournament,,401725629
+2025-03-09,2025,Arkansas State,South Alabama,74,71,Neutral,Conference Tournament,Sun Belt Championship - Semifinal,401744232
+2025-03-09,2025,North Texas,Temple,61,66,B Home,Regular Season,,401725629
 2025-03-09,2025,Houston Christian,Texas A&M-Corpus Christi,48,62,Neutral,Conference Tournament,Southland Tournament - 1st Round,401745820
-2025-03-09,2025,Drexel,Towson,76,82,Neutral,Regular Season,CAA Championship - Quarterfinal,401746244
-2025-03-09,2025,UAB,Tulane,68,85,B Home,Conference Tournament,,401725628
-2025-03-09,2025,Hampton,UNC Wilmington,65,79,Neutral,Regular Season,CAA Championship - Quarterfinal,401746246
-2025-03-09,2025,Oregon,Washington,80,73,B Home,Conference Tournament,,401721483
-2025-03-09,2025,Tulsa,Wichita State,73,63,B Home,Conference Tournament,,401725627
-2025-03-09,2025,Delaware,William & Mary,100,78,Neutral,Regular Season,CAA Championship - Quarterfinal,401746245
-2025-03-09,2025,VMI,Wofford,65,85,Neutral,Regular Season,SoCon Championship - Semifinal,401744192
-2025-03-10,2025,Youngstown State,Cleveland State,56,54,Neutral,Regular Season,Barbasol Horizon League Championship - Semifinal,401743969
-2025-03-10,2025,Wofford,Furman,92,85,Neutral,Regular Season,SoCon Championship - Final,401744193
+2025-03-09,2025,Drexel,Towson,76,82,Neutral,Conference Tournament,CAA Championship - Quarterfinal,401746244
+2025-03-09,2025,UAB,Tulane,68,85,B Home,Regular Season,,401725628
+2025-03-09,2025,Hampton,UNC Wilmington,65,79,Neutral,Conference Tournament,CAA Championship - Quarterfinal,401746246
+2025-03-09,2025,Oregon,Washington,80,73,B Home,Regular Season,,401721483
+2025-03-09,2025,Tulsa,Wichita State,73,63,B Home,Regular Season,,401725627
+2025-03-09,2025,Delaware,William & Mary,100,78,Neutral,Conference Tournament,CAA Championship - Quarterfinal,401746245
+2025-03-09,2025,VMI,Wofford,65,85,Neutral,Conference Tournament,SoCon Championship - Semifinal,401744192
+2025-03-10,2025,Youngstown State,Cleveland State,56,54,Neutral,Conference Tournament,Barbasol Horizon League Championship - Semifinal,401743969
+2025-03-10,2025,Wofford,Furman,92,85,Neutral,Conference Tournament,SoCon Championship - Final,401744193
 2025-03-10,2025,San Francisco,Gonzaga,76,85,Neutral,Conference Tournament,West Coast Conference Tournament - Semifinal,401744265
-2025-03-10,2025,Montana State,Idaho State,80,60,Neutral,Regular Season,Big Sky Championship - 3rd Round,401745792
+2025-03-10,2025,Montana State,Idaho State,80,60,Neutral,Conference Tournament,Big Sky Championship - 3rd Round,401745792
 2025-03-10,2025,Incarnate Word,Nicholls,70,74,Neutral,Conference Tournament,Southland Tournament - Quarterfinal,401745823
 2025-03-10,2025,Texas A&M-Corpus Christi,Northwestern State,63,66,Neutral,Conference Tournament,Southland Tournament - Quarterfinal,401745822
-2025-03-10,2025,Idaho,Portland State,80,70,Neutral,Regular Season,Big Sky Championship - 3rd Round,401745793
-2025-03-10,2025,Oakland,Robert Morris,76,79,Neutral,Regular Season,Barbasol Horizon League Championship - Semifinal,401743966
+2025-03-10,2025,Idaho,Portland State,80,70,Neutral,Conference Tournament,Big Sky Championship - 3rd Round,401745793
+2025-03-10,2025,Oakland,Robert Morris,76,79,Neutral,Conference Tournament,Barbasol Horizon League Championship - Semifinal,401743966
 2025-03-10,2025,Pepperdine,Saint Mary's,59,74,Neutral,Conference Tournament,West Coast Conference Tournament - Semifinal,401744264
-2025-03-10,2025,Delaware,Towson,82,72,Neutral,Regular Season,CAA Championship - Semifinal,401746248
-2025-03-10,2025,Arkansas State,Troy,81,94,Neutral,Regular Season,Sun Belt Championship - Final,401744237
-2025-03-10,2025,Charleston,UNC Wilmington,67,68,Neutral,Regular Season,CAA Championship - Semifinal,401746249
+2025-03-10,2025,Delaware,Towson,82,72,Neutral,Conference Tournament,CAA Championship - Semifinal,401746248
+2025-03-10,2025,Arkansas State,Troy,81,94,Neutral,Conference Tournament,Sun Belt Championship - Final,401744237
+2025-03-10,2025,Charleston,UNC Wilmington,67,68,Neutral,Conference Tournament,CAA Championship - Semifinal,401746249
 2025-03-11,2025,UAlbany,Bryant,78,91,B Home,Regular Season,America East Playoffs - Semifinal,401745885
 2025-03-11,2025,Saint Francis,Central Connecticut,46,43,B Home,Conference Tournament,Northeast Conference Tournament - Final,401744108
 2025-03-11,2025,Prairie View A&M,Florida A&M,66,75,Neutral,Conference Tournament,SWAC Tournament - 1st Round,401744241
 2025-03-11,2025,Syracuse,Florida State,66,62,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - 1st Round,401743765
 2025-03-11,2025,Alabama A&M,Grambling,56,73,Neutral,Conference Tournament,SWAC Tournament - 1st Round,401744240
-2025-03-11,2025,Arizona State,Kansas State,66,71,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 1st Round,401743844
+2025-03-11,2025,Arizona State,Kansas State,66,71,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 1st Round,401743844
 2025-03-11,2025,Nicholls,Lamar,55,58,Neutral,Conference Tournament,Southland Tournament - Semifinal,401745825
 2025-03-11,2025,Northwestern State,McNeese,64,83,B Home,Conference Tournament,Southland Tournament - Semifinal,401745824
-2025-03-11,2025,Idaho,Montana,55,78,Neutral,Regular Season,Big Sky Championship - Semifinal,401745795
-2025-03-11,2025,Montana State,Northern Colorado,45,72,Neutral,Regular Season,Big Sky Championship - Semifinal,401745794
+2025-03-11,2025,Idaho,Montana,55,78,Neutral,Conference Tournament,Big Sky Championship - Semifinal,401745795
+2025-03-11,2025,Montana State,Northern Colorado,45,72,Neutral,Conference Tournament,Big Sky Championship - Semifinal,401745794
 2025-03-11,2025,Pittsburgh,Notre Dame,54,55,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - 1st Round,401743763
-2025-03-11,2025,Cincinnati,Oklahoma State,87,68,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 1st Round,401743842
-2025-03-11,2025,Siena,Rider,76,78,Neutral,Round of 64/32,MAAC Championship - 1st Round,401743992
-2025-03-11,2025,Youngstown State,Robert Morris,78,89,Neutral,Regular Season,Barbasol Horizon League Championship - Final,401743975
-2025-03-11,2025,Fairfield,Sacred Heart,58,71,Neutral,Round of 64/32,MAAC Championship - 1st Round,401743993
+2025-03-11,2025,Cincinnati,Oklahoma State,87,68,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 1st Round,401743842
+2025-03-11,2025,Siena,Rider,76,78,Neutral,Conference Tournament,MAAC Championship - 1st Round,401743992
+2025-03-11,2025,Youngstown State,Robert Morris,78,89,Neutral,Conference Tournament,Barbasol Horizon League Championship - Final,401743975
+2025-03-11,2025,Fairfield,Sacred Heart,58,71,Neutral,Conference Tournament,MAAC Championship - 1st Round,401743993
 2025-03-11,2025,Gonzaga,Saint Mary's,58,51,Neutral,Conference Tournament,West Coast Conference Tournament - Final,401744266
 2025-03-11,2025,Utah Tech,Southern Utah,72,65,Neutral,Conference Tournament,WAC Tournament - 1st Round,401744249
-2025-03-11,2025,Colorado,TCU,69,67,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 1st Round,401743843
-2025-03-11,2025,Delaware,UNC Wilmington,72,76,Neutral,Regular Season,CAA Championship - Final,401746250
-2025-03-11,2025,Sam Houston,UTEP,65,79,Neutral,Round of 64/32,CUSA Championship - 1st Round,401744545
-2025-03-11,2025,UCF,Utah,87,72,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 1st Round,401743840
+2025-03-11,2025,Colorado,TCU,69,67,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 1st Round,401743843
+2025-03-11,2025,Delaware,UNC Wilmington,72,76,Neutral,Conference Tournament,CAA Championship - Final,401746250
+2025-03-11,2025,Sam Houston,UTEP,65,79,Neutral,Conference Tournament,CUSA Championship - 1st Round,401744545
+2025-03-11,2025,UCF,Utah,87,72,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 1st Round,401743840
 2025-03-11,2025,Maine,Vermont,57,42,B Home,Regular Season,America East Playoffs - Semifinal,401745886
 2025-03-11,2025,California,Virginia Tech,82,73,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - 1st Round,401743764
-2025-03-11,2025,Florida International,Western Kentucky,64,61,Neutral,Round of 64/32,CUSA Championship - 1st Round,401744546
-2025-03-12,2025,Navy,American University,52,74,B Home,Regular Season,Patriot League Championship - Final,401744147
+2025-03-11,2025,Florida International,Western Kentucky,64,61,Neutral,Conference Tournament,CUSA Championship - 1st Round,401744546
+2025-03-12,2025,Navy,American University,52,74,B Home,Conference Tournament,Patriot League Championship - Final,401744147
 2025-03-12,2025,South Carolina,Arkansas,68,72,Neutral,Conference Tournament,SEC Tournament - 1st Round,401744152
-2025-03-12,2025,Kansas State,Baylor,56,70,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 2nd Round,401743847
-2025-03-12,2025,Richmond,Davidson,65,69,Neutral,Round of 64/32,Atlantic 10 Championship - 1st Round,401743806
+2025-03-12,2025,Kansas State,Baylor,56,70,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 2nd Round,401743847
+2025-03-12,2025,Richmond,Davidson,65,69,Neutral,Conference Tournament,Atlantic 10 Championship - 1st Round,401743806
 2025-03-12,2025,DePaul,Georgetown,71,67,Neutral,Conference Tournament,Big East Tournament - 1st Round,401743856
 2025-03-12,2025,Oklahoma,Georgia,81,75,Neutral,Conference Tournament,SEC Tournament - 1st Round,401744159
 2025-03-12,2025,Virginia,Georgia Tech,60,66,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - 2nd Round,401743766
 2025-03-12,2025,UT Arlington,Grand Canyon,75,98,Neutral,Conference Tournament,WAC Tournament - Quarterfinal,401744251
-2025-03-12,2025,Cincinnati,Iowa State,56,76,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 2nd Round,401743845
+2025-03-12,2025,Cincinnati,Iowa State,56,76,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 2nd Round,401743845
 2025-03-12,2025,Florida A&M,Jackson State,76,91,Neutral,Conference Tournament,SWAC Tournament - Quarterfinal,401744244
-2025-03-12,2025,Florida International,Jacksonville State,56,65,Neutral,Regular Season,CUSA Championship - Quarterfinal,401744548
-2025-03-12,2025,UCF,Kansas,94,98,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 2nd Round,401743841
-2025-03-12,2025,UTEP,Liberty,60,81,Neutral,Regular Season,CUSA Championship - Quarterfinal,401744547
-2025-03-12,2025,La Salle,Massachusetts,78,71,Neutral,Round of 64/32,Atlantic 10 Championship - 1st Round,401743808
+2025-03-12,2025,Florida International,Jacksonville State,56,65,Neutral,Conference Tournament,CUSA Championship - Quarterfinal,401744548
+2025-03-12,2025,UCF,Kansas,94,98,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 2nd Round,401743841
+2025-03-12,2025,UTEP,Liberty,60,81,Neutral,Conference Tournament,CUSA Championship - Quarterfinal,401744547
+2025-03-12,2025,La Salle,Massachusetts,78,71,Neutral,Conference Tournament,Atlantic 10 Championship - 1st Round,401743808
 2025-03-12,2025,Lamar,McNeese,54,63,B Home,Conference Tournament,Southland Tournament - Final,401745826
-2025-03-12,2025,Sacred Heart,Merrimack,62,66,Neutral,Regular Season,MAAC Championship - Quarterfinal,401744004
+2025-03-12,2025,Sacred Heart,Merrimack,62,66,Neutral,Conference Tournament,MAAC Championship - Quarterfinal,401744004
 2025-03-12,2025,Northwestern,Minnesota,72,64,Neutral,Conference Tournament,Big Ten Tournament - 1st Round,401743893
 2025-03-12,2025,LSU,Mississippi State,62,91,Neutral,Conference Tournament,SEC Tournament - 1st Round,401744157
-2025-03-12,2025,Fresno State,Nevada,71,86,Neutral,Round of 64/32,Mountain West Championship - 1st Round,401744073
+2025-03-12,2025,Fresno State,Nevada,71,86,Neutral,Conference Tournament,Mountain West Championship - 1st Round,401744073
 2025-03-12,2025,Maryland Eastern Shore,Norfolk State,70,77,Neutral,Conference Tournament,MEAC Tournament - Quarterfinal,401744021
 2025-03-12,2025,Notre Dame,North Carolina,56,76,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - 2nd Round,401743767
-2025-03-12,2025,Montana,Northern Colorado,91,83,Neutral,Regular Season,Big Sky Championship - Final,401745796
+2025-03-12,2025,Montana,Northern Colorado,91,83,Neutral,Conference Tournament,Big Sky Championship - Final,401745796
 2025-03-12,2025,Iowa,Ohio State,77,70,Neutral,Conference Tournament,Big Ten Tournament - 1st Round,401743894
 2025-03-12,2025,Butler,Providence,75,69,Neutral,Conference Tournament,Big East Tournament - 1st Round,401743855
-2025-03-12,2025,Rider,Quinnipiac,64,78,Neutral,Regular Season,MAAC Championship - Quarterfinal,401744003
-2025-03-12,2025,Fordham,Rhode Island,88,71,Neutral,Round of 64/32,Atlantic 10 Championship - 1st Round,401743807
-2025-03-12,2025,Charlotte,Rice,64,61,Neutral,Round of 64/32,American Athletic Conference Championship - 1st Round,401745776
+2025-03-12,2025,Rider,Quinnipiac,64,78,Neutral,Conference Tournament,MAAC Championship - Quarterfinal,401744003
+2025-03-12,2025,Fordham,Rhode Island,88,71,Neutral,Conference Tournament,Atlantic 10 Championship - 1st Round,401743807
+2025-03-12,2025,Charlotte,Rice,64,61,Neutral,Conference Tournament,American Athletic Conference Championship - 1st Round,401745776
 2025-03-12,2025,USC,Rutgers,97,89,Neutral,Conference Tournament,Big Ten Tournament - 1st Round,401743895
 2025-03-12,2025,Syracuse,SMU,53,73,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - 2nd Round,401743769
-2025-03-12,2025,Wyoming,San José State,61,66,Neutral,Round of 64/32,Mountain West Championship - 1st Round,401744071
+2025-03-12,2025,Wyoming,San José State,61,66,Neutral,Conference Tournament,Mountain West Championship - 1st Round,401744071
 2025-03-12,2025,Coppin State,South Carolina State,63,68,Neutral,Conference Tournament,MEAC Tournament - Quarterfinal,401744022
 2025-03-12,2025,Grambling,Southern,65,62,Neutral,Conference Tournament,SWAC Tournament - Quarterfinal,401744242
 2025-03-12,2025,California,Stanford,73,78,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - 2nd Round,401743768
-2025-03-12,2025,Cal Poly,UC Davis,86,76,Neutral,Round of 64/32,Big West Championship - 1st Round,401743944
-2025-03-12,2025,Cal State Bakersfield,UC Santa Barbara,66,71,Neutral,Round of 64/32,Big West Championship - 1st Round,401743943
-2025-03-12,2025,Air Force,UNLV,59,68,Neutral,Round of 64/32,Mountain West Championship - 1st Round,401744078
+2025-03-12,2025,Cal Poly,UC Davis,86,76,Neutral,Conference Tournament,Big West Championship - 1st Round,401743944
+2025-03-12,2025,Cal State Bakersfield,UC Santa Barbara,66,71,Neutral,Conference Tournament,Big West Championship - 1st Round,401743943
+2025-03-12,2025,Air Force,UNLV,59,68,Neutral,Conference Tournament,Mountain West Championship - 1st Round,401744078
 2025-03-12,2025,Utah Tech,Utah Valley,57,74,Neutral,Conference Tournament,WAC Tournament - Quarterfinal,401744250
 2025-03-12,2025,Texas,Vanderbilt,79,72,Neutral,Conference Tournament,SEC Tournament - 1st Round,401744154
 2025-03-12,2025,Seton Hall,Villanova,55,67,Neutral,Conference Tournament,Big East Tournament - 1st Round,401743857
-2025-03-12,2025,Colorado,West Virginia,67,60,Neutral,Round of 64/32,Phillips 66 Big 12 Championship - 2nd Round,401743846
+2025-03-12,2025,Colorado,West Virginia,67,60,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - 2nd Round,401743846
 2025-03-13,2025,Seattle U,Abilene Christian,69,63,Neutral,Conference Tournament,WAC Tournament - Quarterfinal,401744252
-2025-03-13,2025,Bowling Green,Akron,67,96,Neutral,Regular Season,MAC Championship - Quarterfinal,401745813
-2025-03-13,2025,Kansas,Arizona,77,88,Neutral,Regular Season,Phillips 66 Big 12 Championship - Quarterfinal,401743851
-2025-03-13,2025,Iowa State,BYU,92,96,Neutral,Regular Season,Phillips 66 Big 12 Championship - Quarterfinal,401743848
+2025-03-13,2025,Bowling Green,Akron,67,96,Neutral,Conference Tournament,MAC Championship - Quarterfinal,401745813
+2025-03-13,2025,Kansas,Arizona,77,88,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - Quarterfinal,401743851
+2025-03-13,2025,Iowa State,BYU,92,96,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - Quarterfinal,401743848
 2025-03-13,2025,Alcorn State,Bethune-Cookman,60,69,Neutral,Conference Tournament,SWAC Tournament - Quarterfinal,401744245
-2025-03-13,2025,UC Santa Barbara,Cal State Northridge,78,72,Neutral,Regular Season,Big West Championship - Quarterfinal,401743945
+2025-03-13,2025,UC Santa Barbara,Cal State Northridge,78,72,Neutral,Conference Tournament,Big West Championship - Quarterfinal,401743945
 2025-03-13,2025,Tarleton State,California Baptist,51,55,Neutral,Conference Tournament,WAC Tournament - Quarterfinal,401744253
 2025-03-13,2025,SMU,Clemson,54,57,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - Quarterfinal,401743773
-2025-03-13,2025,Nevada,Colorado State,59,67,Neutral,Regular Season,Mountain West Championship - Quarterfinal,401744084
+2025-03-13,2025,Nevada,Colorado State,59,67,Neutral,Conference Tournament,Mountain West Championship - Quarterfinal,401744084
 2025-03-13,2025,DePaul,Creighton,81,85,Neutral,Conference Tournament,Big East Tournament - Quarterfinal,401743880
 2025-03-13,2025,North Carolina Central,Delaware State,79,77,Neutral,Conference Tournament,MEAC Tournament - Quarterfinal,401744026
 2025-03-13,2025,Georgia Tech,Duke,70,78,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - Quarterfinal,401743770
-2025-03-13,2025,UTSA,East Carolina,65,70,Neutral,Round of 64/32,American Athletic Conference Championship - 2nd Round,401745780
-2025-03-13,2025,Charlotte,Florida Atlantic,59,64,Neutral,Round of 64/32,American Athletic Conference Championship - 2nd Round,401745778
-2025-03-13,2025,Fordham,George Washington,81,88,Neutral,Round of 64/32,Atlantic 10 Championship - 2nd Round,401743811
-2025-03-13,2025,Colorado,Houston,68,77,Neutral,Regular Season,Phillips 66 Big 12 Championship - Quarterfinal,401743849
+2025-03-13,2025,UTSA,East Carolina,65,70,Neutral,Conference Tournament,American Athletic Conference Championship - 2nd Round,401745780
+2025-03-13,2025,Charlotte,Florida Atlantic,59,64,Neutral,Conference Tournament,American Athletic Conference Championship - 2nd Round,401745778
+2025-03-13,2025,Fordham,George Washington,81,88,Neutral,Conference Tournament,Atlantic 10 Championship - 2nd Round,401743811
+2025-03-13,2025,Colorado,Houston,68,77,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - Quarterfinal,401743849
 2025-03-13,2025,Morgan State,Howard,91,90,Neutral,Conference Tournament,MEAC Tournament - Quarterfinal,401744024
 2025-03-13,2025,Iowa,Illinois,94,106,Neutral,Conference Tournament,Big Ten Tournament - 2nd Round,401743918
-2025-03-13,2025,Manhattan,Iona,65,77,Neutral,Regular Season,MAAC Championship - Quarterfinal,401744011
-2025-03-13,2025,New Mexico State,Kennesaw State,77,80,Neutral,Regular Season,CUSA Championship - Quarterfinal,401744549
-2025-03-13,2025,Western Michigan,Kent State,66,73,Neutral,Regular Season,MAC Championship - Quarterfinal,401745816
+2025-03-13,2025,Manhattan,Iona,65,77,Neutral,Conference Tournament,MAAC Championship - Quarterfinal,401744011
+2025-03-13,2025,New Mexico State,Kennesaw State,77,80,Neutral,Conference Tournament,CUSA Championship - Quarterfinal,401744549
+2025-03-13,2025,Western Michigan,Kent State,66,73,Neutral,Conference Tournament,MAC Championship - Quarterfinal,401745816
 2025-03-13,2025,Oklahoma,Kentucky,84,85,Neutral,Conference Tournament,SEC Tournament - 2nd Round,401744164
 2025-03-13,2025,Stanford,Louisville,73,75,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - Quarterfinal,401743772
-2025-03-13,2025,Mount St. Mary's,Marist,62,58,Neutral,Regular Season,MAAC Championship - Quarterfinal,401744013
-2025-03-13,2025,Eastern Michigan,Miami (OH),75,81,Neutral,Regular Season,MAC Championship - Quarterfinal,401745815
-2025-03-13,2025,Louisiana Tech,Middle Tennessee,75,77,Neutral,Regular Season,CUSA Championship - Quarterfinal,401744550
+2025-03-13,2025,Mount St. Mary's,Marist,62,58,Neutral,Conference Tournament,MAAC Championship - Quarterfinal,401744013
+2025-03-13,2025,Eastern Michigan,Miami (OH),75,81,Neutral,Conference Tournament,MAC Championship - Quarterfinal,401745815
+2025-03-13,2025,Louisiana Tech,Middle Tennessee,75,77,Neutral,Conference Tournament,CUSA Championship - Quarterfinal,401744550
 2025-03-13,2025,Mississippi State,Missouri,73,85,Neutral,Conference Tournament,SEC Tournament - 2nd Round,401744163
-2025-03-13,2025,San José State,New Mexico,52,63,Neutral,Regular Season,Mountain West Championship - Quarterfinal,401744082
+2025-03-13,2025,San José State,New Mexico,52,63,Neutral,Conference Tournament,Mountain West Championship - Quarterfinal,401744082
 2025-03-13,2025,Arkansas,Ole Miss,80,83,Neutral,Conference Tournament,SEC Tournament - 2nd Round,401744161
 2025-03-13,2025,Indiana,Oregon,59,72,Neutral,Conference Tournament,Big Ten Tournament - 2nd Round,401743896
 2025-03-13,2025,USC,Purdue,71,76,Neutral,Conference Tournament,Big Ten Tournament - 2nd Round,401743919
-2025-03-13,2025,La Salle,Saint Joseph's,70,75,Neutral,Round of 64/32,Atlantic 10 Championship - 2nd Round,401743812
-2025-03-13,2025,Davidson,Saint Louis,75,83,Neutral,Round of 64/32,Atlantic 10 Championship - 2nd Round,401743810
-2025-03-13,2025,Boise State,San Diego State,62,52,Neutral,Regular Season,Mountain West Championship - Quarterfinal,401744083
-2025-03-13,2025,Duquesne,St. Bonaventure,59,64,Neutral,Round of 64/32,Atlantic 10 Championship - 2nd Round,401743809
+2025-03-13,2025,La Salle,Saint Joseph's,70,75,Neutral,Conference Tournament,Atlantic 10 Championship - 2nd Round,401743812
+2025-03-13,2025,Davidson,Saint Louis,75,83,Neutral,Conference Tournament,Atlantic 10 Championship - 2nd Round,401743810
+2025-03-13,2025,Boise State,San Diego State,62,52,Neutral,Conference Tournament,Mountain West Championship - Quarterfinal,401744083
+2025-03-13,2025,Duquesne,St. Bonaventure,59,64,Neutral,Conference Tournament,Atlantic 10 Championship - 2nd Round,401743809
 2025-03-13,2025,Butler,St. John's,57,78,Neutral,Conference Tournament,Big East Tournament - Quarterfinal,401743878
-2025-03-13,2025,Tulsa,Temple,75,71,Neutral,Round of 64/32,American Athletic Conference Championship - 2nd Round,401745779
+2025-03-13,2025,Tulsa,Temple,75,71,Neutral,Conference Tournament,American Athletic Conference Championship - 2nd Round,401745779
 2025-03-13,2025,Texas,Texas A&M,94,89,Neutral,Conference Tournament,SEC Tournament - 2nd Round,401744162
 2025-03-13,2025,Alabama State,Texas Southern,84,79,Neutral,Conference Tournament,SWAC Tournament - Quarterfinal,401744243
-2025-03-13,2025,Baylor,Texas Tech,74,76,Neutral,Regular Season,Phillips 66 Big 12 Championship - Quarterfinal,401743850
-2025-03-13,2025,Ohio,Toledo,85,90,Neutral,Regular Season,MAC Championship - Quarterfinal,401745814
-2025-03-13,2025,Cal Poly,UC Riverside,96,83,Neutral,Regular Season,Big West Championship - Quarterfinal,401743946
+2025-03-13,2025,Baylor,Texas Tech,74,76,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - Quarterfinal,401743850
+2025-03-13,2025,Ohio,Toledo,85,90,Neutral,Conference Tournament,MAC Championship - Quarterfinal,401745814
+2025-03-13,2025,Cal Poly,UC Riverside,96,83,Neutral,Conference Tournament,Big West Championship - Quarterfinal,401743946
 2025-03-13,2025,Villanova,UConn,56,73,Neutral,Conference Tournament,Big East Tournament - Quarterfinal,401743881
-2025-03-13,2025,UNLV,Utah State,58,70,Neutral,Regular Season,Mountain West Championship - Quarterfinal,401744086
+2025-03-13,2025,UNLV,Utah State,58,70,Neutral,Conference Tournament,Mountain West Championship - Quarterfinal,401744086
 2025-03-13,2025,North Carolina,Wake Forest,68,59,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - Quarterfinal,401743771
-2025-03-13,2025,South Florida,Wichita State,68,73,Neutral,Round of 64/32,American Athletic Conference Championship - 2nd Round,401745777
+2025-03-13,2025,South Florida,Wichita State,68,73,Neutral,Conference Tournament,American Athletic Conference Championship - 2nd Round,401745777
 2025-03-13,2025,Northwestern,Wisconsin,63,70,Neutral,Conference Tournament,Big Ten Tournament - 2nd Round,401743897
 2025-03-13,2025,Marquette,Xavier,89,87,Neutral,Conference Tournament,Big East Tournament - Quarterfinal,401743879
-2025-03-14,2025,Toledo,Akron,90,100,Neutral,Regular Season,MAC Championship - Semifinal,401745817
+2025-03-14,2025,Toledo,Akron,90,100,Neutral,Conference Tournament,MAC Championship - Semifinal,401745817
 2025-03-14,2025,Kentucky,Alabama,70,99,Neutral,Conference Tournament,SEC Tournament - Quarterfinal,401744171
 2025-03-14,2025,Grambling,Alabama State,62,64,Neutral,Conference Tournament,SWAC Tournament - Semifinal,401744246
 2025-03-14,2025,Ole Miss,Auburn,57,62,Neutral,Conference Tournament,SEC Tournament - Quarterfinal,401744166
-2025-03-14,2025,Utah State,Colorado State,72,83,Neutral,Regular Season,Mountain West Championship - Semifinal,401744090
+2025-03-14,2025,Utah State,Colorado State,72,83,Neutral,Conference Tournament,Mountain West Championship - Semifinal,401744090
 2025-03-14,2025,UConn,Creighton,62,71,Neutral,Conference Tournament,Big East Tournament - Semifinal,401743883
-2025-03-14,2025,Saint Joseph's,Dayton,73,68,Neutral,Regular Season,Atlantic 10 Championship - Quarterfinal,401743816
+2025-03-14,2025,Saint Joseph's,Dayton,73,68,Neutral,Conference Tournament,Atlantic 10 Championship - Quarterfinal,401743816
 2025-03-14,2025,North Carolina,Duke,71,74,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - Semifinal,401743774
 2025-03-14,2025,Missouri,Florida,81,95,Neutral,Conference Tournament,SEC Tournament - Quarterfinal,401744170
-2025-03-14,2025,George Washington,George Mason,65,80,Neutral,Regular Season,Atlantic 10 Championship - Quarterfinal,401743815
+2025-03-14,2025,George Washington,George Mason,65,80,Neutral,Conference Tournament,Atlantic 10 Championship - Quarterfinal,401743815
 2025-03-14,2025,California Baptist,Grand Canyon,66,75,Neutral,Conference Tournament,WAC Tournament - Semifinal,401744254
-2025-03-14,2025,BYU,Houston,54,74,Neutral,Regular Season,Phillips 66 Big 12 Championship - Semifinal,401743852
+2025-03-14,2025,BYU,Houston,54,74,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - Semifinal,401743852
 2025-03-14,2025,Bethune-Cookman,Jackson State,50,71,Neutral,Conference Tournament,SWAC Tournament - Semifinal,401744247
-2025-03-14,2025,Middle Tennessee,Jacksonville State,68,70,Neutral,Regular Season,CUSA Championship - Semifinal,401744552
-2025-03-14,2025,Kennesaw State,Liberty,79,81,Neutral,Regular Season,CUSA Championship - Semifinal,401744551
+2025-03-14,2025,Middle Tennessee,Jacksonville State,68,70,Neutral,Conference Tournament,CUSA Championship - Semifinal,401744552
+2025-03-14,2025,Kennesaw State,Liberty,79,81,Neutral,Conference Tournament,CUSA Championship - Semifinal,401744551
 2025-03-14,2025,Clemson,Louisville,73,76,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - Semifinal,401743775
-2025-03-14,2025,Saint Louis,Loyola Chicago,64,72,Neutral,Regular Season,Atlantic 10 Championship - Quarterfinal,401743814
+2025-03-14,2025,Saint Louis,Loyola Chicago,64,72,Neutral,Conference Tournament,Atlantic 10 Championship - Quarterfinal,401743814
 2025-03-14,2025,Illinois,Maryland,65,88,Neutral,Conference Tournament,Big Ten Tournament - Quarterfinal,401743938
 2025-03-14,2025,Wichita State,Memphis,80,83,Neutral,Conference Tournament,American Athletic Conference Championship - Quarterfinal,401745781
-2025-03-14,2025,Mount St. Mary's,Merrimack,57,55,Neutral,Regular Season,MAAC Championship - Semifinal,401744015
-2025-03-14,2025,Kent State,Miami (OH),64,72,Neutral,Regular Season,MAC Championship - Semifinal,401745818
+2025-03-14,2025,Mount St. Mary's,Merrimack,57,55,Neutral,Conference Tournament,MAAC Championship - Semifinal,401744015
+2025-03-14,2025,Kent State,Miami (OH),64,72,Neutral,Conference Tournament,MAC Championship - Semifinal,401745818
 2025-03-14,2025,Purdue,Michigan,68,86,Neutral,Conference Tournament,Big Ten Tournament - Quarterfinal,401743939
 2025-03-14,2025,Oregon,Michigan State,64,74,Neutral,Conference Tournament,Big Ten Tournament - Quarterfinal,401743916
-2025-03-14,2025,Boise State,New Mexico,72,69,Neutral,Regular Season,Mountain West Championship - Semifinal,401744088
+2025-03-14,2025,Boise State,New Mexico,72,69,Neutral,Conference Tournament,Mountain West Championship - Semifinal,401744088
 2025-03-14,2025,Morgan State,Norfolk State,55,58,Neutral,Conference Tournament,MEAC Tournament - Semifinal,401744029
 2025-03-14,2025,Tulsa,North Texas,59,77,Neutral,Conference Tournament,American Athletic Conference Championship - Quarterfinal,401745783
-2025-03-14,2025,Iona,Quinnipiac,81,73,Neutral,Regular Season,MAAC Championship - Semifinal,401744014
+2025-03-14,2025,Iona,Quinnipiac,81,73,Neutral,Conference Tournament,MAAC Championship - Semifinal,401744014
 2025-03-14,2025,North Carolina Central,South Carolina State,67,88,Neutral,Conference Tournament,MEAC Tournament - Semifinal,401744031
 2025-03-14,2025,Marquette,St. John's,63,79,Neutral,Conference Tournament,Big East Tournament - Semifinal,401743882
 2025-03-14,2025,Texas,Tennessee,72,83,Neutral,Conference Tournament,SEC Tournament - Quarterfinal,401744168
-2025-03-14,2025,Arizona,Texas Tech,86,80,Neutral,Regular Season,Phillips 66 Big 12 Championship - Semifinal,401743853
+2025-03-14,2025,Arizona,Texas Tech,86,80,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - Semifinal,401743853
 2025-03-14,2025,Florida Atlantic,Tulane,76,83,Neutral,Conference Tournament,American Athletic Conference Championship - Quarterfinal,401745782
 2025-03-14,2025,East Carolina,UAB,77,94,Neutral,Conference Tournament,American Athletic Conference Championship - Quarterfinal,401745784
-2025-03-14,2025,Cal Poly,UC Irvine,78,96,Neutral,Regular Season,Big West Championship - Semifinal,401743948
-2025-03-14,2025,UC Santa Barbara,UC San Diego,51,69,Neutral,Regular Season,Big West Championship - Semifinal,401743947
+2025-03-14,2025,Cal Poly,UC Irvine,78,96,Neutral,Conference Tournament,Big West Championship - Semifinal,401743948
+2025-03-14,2025,UC Santa Barbara,UC San Diego,51,69,Neutral,Conference Tournament,Big West Championship - Semifinal,401743947
 2025-03-14,2025,Wisconsin,UCLA,86,70,Neutral,Conference Tournament,Big Ten Tournament - Quarterfinal,401743917
 2025-03-14,2025,Seattle U,Utah Valley,55,68,Neutral,Conference Tournament,WAC Tournament - Semifinal,401744255
-2025-03-14,2025,St. Bonaventure,VCU,59,76,Neutral,Regular Season,Atlantic 10 Championship - Quarterfinal,401743813
-2025-03-15,2025,Miami (OH),Akron,74,76,Neutral,Regular Season,MAC Championship - Final,401745819
+2025-03-14,2025,St. Bonaventure,VCU,59,76,Neutral,Conference Tournament,Atlantic 10 Championship - Quarterfinal,401743813
+2025-03-15,2025,Miami (OH),Akron,74,76,Neutral,Conference Tournament,MAC Championship - Final,401745819
 2025-03-15,2025,Tennessee,Auburn,70,65,Neutral,Conference Tournament,SEC Tournament - Semifinal,401744172
 2025-03-15,2025,Maine,Bryant,59,79,B Home,Regular Season,America East Playoffs - Final,401745889
-2025-03-15,2025,Boise State,Colorado State,56,69,Neutral,Regular Season,Mountain West Championship - Final,401744093
+2025-03-15,2025,Boise State,Colorado State,56,69,Neutral,Conference Tournament,Mountain West Championship - Final,401744093
 2025-03-15,2025,Dartmouth,Cornell,71,87,Neutral,Conference Tournament,Ivy League Tournament pres. by TIAA - Semifinal,401743987
 2025-03-15,2025,Louisville,Duke,62,73,Neutral,Conference Tournament,T. Rowe Price ACC Tournament - Final,401743776
 2025-03-15,2025,Alabama,Florida,82,104,Neutral,Conference Tournament,SEC Tournament - Semifinal,401744173
-2025-03-15,2025,Saint Joseph's,George Mason,64,74,Neutral,Regular Season,Atlantic 10 Championship - Semifinal,401743838
-2025-03-15,2025,Arizona,Houston,64,72,Neutral,Regular Season,Phillips 66 Big 12 Championship - Final,401743854
-2025-03-15,2025,Mount St. Mary's,Iona,63,49,Neutral,Regular Season,MAAC Championship - Final,401744016
+2025-03-15,2025,Saint Joseph's,George Mason,64,74,Neutral,Conference Tournament,Atlantic 10 Championship - Semifinal,401743838
+2025-03-15,2025,Arizona,Houston,64,72,Neutral,Conference Tournament,Phillips 66 Big 12 Championship - Final,401743854
+2025-03-15,2025,Mount St. Mary's,Iona,63,49,Neutral,Conference Tournament,MAAC Championship - Final,401744016
 2025-03-15,2025,Alabama State,Jackson State,60,56,Neutral,Conference Tournament,SWAC Tournament - Final,401744248
-2025-03-15,2025,Jacksonville State,Liberty,67,79,Neutral,Regular Season,CUSA Championship - Final,401744553
+2025-03-15,2025,Jacksonville State,Liberty,67,79,Neutral,Conference Tournament,CUSA Championship - Final,401744553
 2025-03-15,2025,Michigan,Maryland,81,80,Neutral,Conference Tournament,Big Ten Tournament - Semifinal,401743941
 2025-03-15,2025,Tulane,Memphis,77,78,Neutral,Conference Tournament,American Athletic Conference Championship - Semifinal,401745785
 2025-03-15,2025,Wisconsin,Michigan State,77,74,Neutral,Conference Tournament,Big Ten Tournament - Semifinal,401743940
 2025-03-15,2025,South Carolina State,Norfolk State,65,66,Neutral,Conference Tournament,MEAC Tournament - Final,401744034
 2025-03-15,2025,UAB,North Texas,66,56,Neutral,Conference Tournament,American Athletic Conference Championship - Semifinal,401745786
 2025-03-15,2025,Creighton,St. John's,66,82,B Home,Conference Tournament,Big East Tournament - Final,401743884
-2025-03-15,2025,UC Irvine,UC San Diego,61,75,Neutral,Regular Season,Big West Championship - Final,401743949
+2025-03-15,2025,UC Irvine,UC San Diego,61,75,Neutral,Conference Tournament,Big West Championship - Final,401743949
 2025-03-15,2025,Grand Canyon,Utah Valley,89,82,Neutral,Conference Tournament,WAC Tournament - Final,401744256
-2025-03-15,2025,Loyola Chicago,VCU,55,62,Neutral,Regular Season,Atlantic 10 Championship - Semifinal,401743817
+2025-03-15,2025,Loyola Chicago,VCU,55,62,Neutral,Conference Tournament,Atlantic 10 Championship - Semifinal,401743817
 2025-03-15,2025,Princeton,Yale,57,59,Neutral,Conference Tournament,Ivy League Tournament pres. by TIAA - Semifinal,401743986
 2025-03-16,2025,Tennessee,Florida,77,86,Neutral,Conference Tournament,SEC Tournament - Final,401744175
 2025-03-16,2025,UAB,Memphis,72,84,Neutral,Conference Tournament,American Athletic Conference Championship - Final,401745787
 2025-03-16,2025,Wisconsin,Michigan,53,59,Neutral,Conference Tournament,Big Ten Tournament - Final,401743942
-2025-03-16,2025,George Mason,VCU,63,68,Neutral,Regular Season,Atlantic 10 Championship - Final,401743839
+2025-03-16,2025,George Mason,VCU,63,68,Neutral,Conference Tournament,Atlantic 10 Championship - Final,401743839
 2025-03-16,2025,Cornell,Yale,84,90,Neutral,Conference Tournament,Ivy League Tournament pres. by TIAA - Final,401743988
 2025-03-18,2025,Saint Francis,Alabama State,68,70,Neutral,First Four,Men's Basketball Championship - South Region - First Four,401745907
 2025-03-18,2025,Saint Louis,Arkansas State,78,103,B Home,Regular Season,NIT - 1st Round,401751911
