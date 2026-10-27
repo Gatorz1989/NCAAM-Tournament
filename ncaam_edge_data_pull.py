@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ncaam_edge_data_pull.py  (NCAAM Edge Model v1.4 companion)
+ncaam_edge_data_pull.py  (NCAAM Edge Model companion) v1.3
 
 Writes ncaam_model_data.json for the NCAAM Edge Model HTML:
   teams     BartTorvik ratings (adjoe, adjde, adjt, barthag, ...)
@@ -11,15 +11,18 @@ Writes ncaam_model_data.json for the NCAAM Edge Model HTML:
 Keys: keys.txt next to this script (ODDS_API_KEY=...) wins over environment variables.
 Name matching is NOT done here – the HTML does it, visibly, so nothing is silently zeroed.
 
-Ratings come from the first source that works:
+Ratings come from the first source in this chain that works (each step is logged, and the result is saved in the file):
   1) RATINGS_URL  (keys.txt / environment / GitHub secret): a link to a CSV or JSON of team ratings
-  2) a file next to this script: ratings_manual*.csv|json or torvik_manual*.csv (year taken from the file name)
-  3) BartTorvik live download (often blocked for automated requests: HTTP 403)
-  4) the ratings already in the last ncaam_model_data.json (carried forward, with their original date)
+  2) a file next to this script for the CURRENT season: ratings_manual*.csv|json or torvik_manual*.csv (year taken from the file name).
+     This is also where the file pushed from your own computer lands.
+  3) BartTorvik live download: browser-style headers, a cookie warm-up, three address variants, two tries each (often blocked from GitHub: HTTP 403)
+  4) ratings built from ESPN scores (adjusted points for and against, no tempo data, needs ~5 games per team, so it only works from about December)
+  5) an OLDER-season file next to this script (real Torvik numbers, flagged as prior season)
+  6) the ratings already in the last ncaam_model_data.json (carried forward, with their original date)
 Whatever happens to ratings, the schedule and lines are still saved - the HTML keeps the last good ratings.
 Files need a header row with team, AdjOE, AdjDE, AdjT (Torvik: adjoe/adjde/adjt; KenPom: AdjO/AdjD/AdjT or AdjOE/AdjDE/AdjTempo).
 """
-import csv, datetime as dt, glob, io, json, os, re, sys, time
+import concurrent.futures, csv, datetime as dt, glob, io, json, math, os, re, sys, time
 
 try:
     import requests
@@ -28,7 +31,7 @@ except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
     import requests
 
-VERSION = "1.2"
+VERSION = "1.3"
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "ncaam_model_data.json")
 UA = {"User-Agent": "Mozilla/5.0 (compatible; EdgeReportPull/1.0)"}
@@ -37,7 +40,17 @@ ODDS_URL = ("https://api.the-odds-api.com/v4/sports/basketball_ncaab/odds"
             "&bookmakers=fanduel,draftkings")
 ESPN_URL = ("https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/"
             "scoreboard?dates={d}&groups=50&limit=400")
-TORVIK_CSV = "https://barttorvik.com/{year}_team_results.csv"
+TORVIK_URLS = ["https://barttorvik.com/{year}_team_results.csv",
+               "https://www.barttorvik.com/{year}_team_results.csv",
+               "https://barttorvik.com/trank.php?year={year}&csv=1"]
+BROWSER = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+           "Accept": "text/csv,text/plain,application/json;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Referer": "https://barttorvik.com/"}
+AVG_POSS = 67.5          # used only by the ESPN-built ratings (no tempo data there)
+ESPN_MIN_GAMES = 5
+
+
+def today():
+    return dt.date.today()
 
 
 def log(*a):
@@ -72,8 +85,8 @@ def load_keys():
 
 
 # ---------------------------------------------------------------- season
-def season_year(today=None):
-    t = today or dt.date.today()
+def season_year(today_=None):
+    t = today_ or today()
     return t.year + 1 if t.month >= 8 else t.year   # 2026-27 season -> 2027
 
 
@@ -184,58 +197,205 @@ def local_ratings():
     return [], "", None, ""
 
 
+def one_line(txt, n=110):
+    return re.sub(r"\s+", " ", (txt or "")).strip()[:n]
+
+
 def fetch_torvik(year):
-    url = TORVIK_CSV.format(year=year)
+    """Tries three addresses with browser-style headers and a cookie warm-up, two attempts each. Returns [] if blocked."""
+    sess = requests.Session()
+    sess.headers.update(BROWSER)
     try:
-        r = requests.get(url, headers=UA, timeout=30)
-        log(f"  Torvik {year}: HTTP {r.status_code}, {len(r.text)} chars")
-        if r.status_code == 200 and "adjoe" in r.text[:600].lower():
-            teams = parse_ratings_text(r.text)
-            if sane(teams):
-                return teams
-            log(f"  Torvik {year}: parsed {len(teams)} teams but failed sanity checks")
-        else:
-            log("  Torvik did not return the CSV (blocked for automated requests, or not published yet). Use RATINGS_URL or a ratings_manual file.")
-    except Exception as e:
-        log(f"  Torvik {year} failed: {e}")
+        sess.get("https://barttorvik.com/", timeout=15)
+    except Exception:
+        pass
+    for tmpl in TORVIK_URLS:
+        url = tmpl.format(year=year)
+        short = url.replace("https://", "")
+        for attempt in (1, 2):
+            try:
+                r = sess.get(url, timeout=30)
+                log(f"  Torvik {year} [{short}] try {attempt}: HTTP {r.status_code}, {len(r.text)} chars")
+                if r.status_code == 200:
+                    teams = parse_ratings_text(r.text)
+                    if sane(teams):
+                        return teams
+                    log(f"    answered 200 but not usable ratings ({len(teams)} rows parsed): {one_line(r.text)}")
+                    break
+                log(f"    answer began: {one_line(r.text)}")
+                if r.status_code in (403, 429) or r.status_code >= 500:
+                    time.sleep(2 * attempt)
+                    continue
+                break
+            except Exception as e:
+                log(f"  Torvik {year} [{short}] try {attempt} failed: {e}")
+                time.sleep(2)
+    log(f"  Torvik {year}: every address was blocked or empty (often blocked for automated requests from GitHub, or not published yet)")
     return []
 
 
+# ---------------------------------------------------------------- ratings built from ESPN scores
+def espn_results(start, end, workers=6):
+    """Completed games from start..end (dates), one ESPN call per day."""
+    days = [start + dt.timedelta(days=i) for i in range((end - start).days + 1)]
+
+    def one(d):
+        for attempt in (1, 2):
+            try:
+                r = requests.get(ESPN_URL.format(d=d.strftime("%Y%m%d")), headers=UA, timeout=20)
+                if r.status_code == 200:
+                    return r.json().get("events", [])
+            except Exception:
+                time.sleep(1)
+        return []
+    out, seen = [], set()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+        for evs in ex.map(one, days):
+            for ev in evs:
+                comp = (ev.get("competitions") or [{}])[0]
+                t = (ev.get("status") or {}).get("type") or {}
+                cs = comp.get("competitors") or []
+                home = next((c for c in cs if c.get("homeAway") == "home"), None)
+                away = next((c for c in cs if c.get("homeAway") == "away"), None)
+                if not t.get("completed") or not home or not away or ev.get("id") in seen:
+                    continue
+                hs, as_ = to_f(home.get("score")), to_f(away.get("score"))
+                if hs is None or as_ is None:
+                    continue
+                seen.add(ev.get("id"))
+                out.append(dict(home=home["team"]["displayName"], away=away["team"]["displayName"], hs=hs, as_=as_, neutral=bool(comp.get("neutralSite"))))
+    return out
+
+
+def build_espn_ratings(games, min_games=ESPN_MIN_GAMES, iters=60, ridge=3.0):
+    """Adjusted points for/against from scores alone: score = mu + off(team) + def(opponent) + home edge, ridge-shrunk and solved by iteration.
+    No tempo data, so every team gets the same tempo; spreads are sound, totals are rougher than Torvik's."""
+    games = list(games)
+    for _ in range(3):                                        # drop teams (exhibition opponents etc.) with too few games
+        cnt = {}
+        for g in games:
+            cnt[g["home"]] = cnt.get(g["home"], 0) + 1
+            cnt[g["away"]] = cnt.get(g["away"], 0) + 1
+        keep = {t for t, c in cnt.items() if c >= min_games}
+        games = [g for g in games if g["home"] in keep and g["away"] in keep]
+    if not games:
+        return []
+    teams = sorted({g["home"] for g in games} | {g["away"] for g in games})
+    mu = sum(g["hs"] + g["as_"] for g in games) / (2 * len(games))
+    off = {t: 0.0 for t in teams}
+    dfn = {t: 0.0 for t in teams}
+    hca = 3.0
+    n = {t: 0 for t in teams}
+    for g in games:
+        n[g["home"]] += 1
+        n[g["away"]] += 1
+    for _ in range(iters):
+        so = {t: 0.0 for t in teams}
+        for g in games:
+            h, a = g["home"], g["away"]
+            adj = 0.0 if g["neutral"] else hca
+            so[h] += g["hs"] - mu - dfn[a] - adj / 2
+            so[a] += g["as_"] - mu - dfn[h] + adj / 2
+        off = {t: so[t] / (n[t] + ridge) for t in teams}
+        sd = {t: 0.0 for t in teams}
+        for g in games:
+            h, a = g["home"], g["away"]
+            adj = 0.0 if g["neutral"] else hca
+            sd[a] += g["hs"] - mu - off[h] - adj / 2
+            sd[h] += g["as_"] - mu - off[a] + adj / 2
+        dfn = {t: sd[t] / (n[t] + ridge) for t in teams}
+        res = [(g["hs"] - g["as_"]) - ((off[g["home"]] + dfn[g["away"]]) - (off[g["away"]] + dfn[g["home"]])) for g in games if not g["neutral"]]
+        if res:
+            hca = max(0.0, min(8.0, sum(res) / len(res)))
+    wl = {t: [0, 0] for t in teams}
+    for g in games:
+        w, l = (g["home"], g["away"]) if g["hs"] > g["as_"] else (g["away"], g["home"])
+        wl[w][0] += 1
+        wl[l][1] += 1
+    rows = []
+    for t in teams:
+        oe, de = 100 * (mu + off[t]) / AVG_POSS, 100 * (mu + dfn[t]) / AVG_POSS
+        bar = oe ** 11.5 / (oe ** 11.5 + de ** 11.5)
+        rows.append(dict(team=t, conf="", record=f"{wl[t][0]}-{wl[t][1]}", adjoe=round(oe, 2), adjde=round(de, 2), adjt=AVG_POSS, barthag=round(bar, 4), sos=None, wab=None, rank=None, luck=None))
+    rows.sort(key=lambda r: -r["barthag"])
+    for i, r in enumerate(rows):
+        r["rank"] = i + 1
+    return rows
+
+
+# ---------------------------------------------------------------- the ratings chain
 def get_ratings(prev, keys):
-    """-> dict(teams, season, stale, note, source, as_of)"""
+    """-> dict(teams, season, stale, note, source, as_of, chain). Walks the chain and logs every step."""
     yr = season_year()
     now = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+    chain = []
 
-    def pack(teams, src, season, as_of):
+    def step(name, status):
+        chain.append(dict(step=name, status=status))
+        log(f"  [{len(chain)}] {name}: {status}")
+
+    def pack(teams, src, season, as_of, note=None):
         stale = bool(season and season < yr)
-        note = f"ratings are for the {season} season; {yr} not loaded yet" if stale else ""
-        return dict(teams=teams, season=season or yr, stale=stale, note=note, source=src, as_of=as_of)
+        n = note if note is not None else (f"ratings are for the {season} season; {yr} not loaded yet" if stale else "")
+        return dict(teams=teams, season=season or yr, stale=stale, note=n, source=src, as_of=as_of, chain=chain)
+    # 1) RATINGS_URL
     if keys.get("RATINGS_URL"):
         t = fetch_ratings_url(keys["RATINGS_URL"])
         if t:
+            step("RATINGS_URL", f"used ({len(t)} teams)")
             return pack(t, "RATINGS_URL", year_in(keys["RATINGS_URL"]) or yr, now)
-    t, name, fy, mt = local_ratings()
-    if t:
-        return pack(t, name, fy or yr, mt)
-    t = fetch_torvik(yr)
-    if t:
-        return pack(t, "Torvik live", yr, now)
-    t = fetch_torvik(yr - 1)
-    if t:
-        return pack(t, "Torvik live", yr - 1, now)
+        step("RATINGS_URL", "failed")
+    else:
+        step("RATINGS_URL", "not set")
+    # 2) manual / pushed file for the current season
+    lt, lname, lfy, lmt = local_ratings()
+    if lt and (lfy is None or lfy >= yr):
+        step("ratings file in the repo", f"used {lname} ({len(lt)} teams)")
+        return pack(lt, lname, lfy or yr, lmt)
+    step("ratings file in the repo", f"none for {yr}" + (f" (found older: {lname}, kept as a later fallback)" if lt else ""))
+    # 3) Torvik live
+    for y in (yr, yr - 1):
+        t = fetch_torvik(y)
+        if t:
+            step("Torvik live", f"used the {y} file ({len(t)} teams)")
+            return pack(t, "Torvik live", y, now)
+    step("Torvik live", "blocked or not published")
+    # 4) ratings built from ESPN scores
+    start = dt.date(yr - 1, 11, 1)
+    if today() <= start + dt.timedelta(days=14):
+        step("ESPN-built ratings", "skipped (the season has barely started, not enough games)")
+    else:
+        try:
+            games = espn_results(start, today())
+            t = build_espn_ratings(games)
+            if sane(t):
+                step("ESPN-built ratings", f"used ({len(t)} teams from {len(games)} games)")
+                return pack(t, "ESPN-built (no tempo data)", yr, now,
+                            note="ratings built from ESPN scores because Torvik could not be reached: spreads are sound, totals are rougher (no tempo data)")
+            step("ESPN-built ratings", f"not enough games yet ({len(t)} teams with {ESPN_MIN_GAMES}+ games from {len(games)} games)")
+        except Exception as e:
+            step("ESPN-built ratings", f"failed: {e}")
+    # 5) older-season file kept in the repo
+    if lt:
+        step("older-season file", f"used {lname} ({len(lt)} teams, season {lfy})")
+        return pack(lt, lname, lfy, lmt)
+    step("older-season file", "none")
+    # 6) previous ratings in the last output
     if prev and prev.get("teams"):
+        step("carried forward", f"used the ratings from the last good pull ({len(prev['teams'])} teams)")
         return dict(teams=prev["teams"], season=prev.get("season"), stale=True, note="ratings could not be refreshed; carried forward from the last good pull",
-                    source=(prev.get("ratings_source") or "previous pull") + " (carried forward)", as_of=prev.get("ratings_as_of") or prev.get("generated_at"))
-    return dict(teams=[], season=yr, stale=True, note="NO RATINGS: set RATINGS_URL or add a ratings_manual*.csv; schedule and lines were still saved",
-                source="none", as_of=None)
+                    source=(prev.get("ratings_source") or "previous pull") + " (carried forward)", as_of=prev.get("ratings_as_of") or prev.get("generated_at"), chain=chain)
+    step("carried forward", "nothing saved from an earlier pull")
+    return dict(teams=[], season=yr, stale=True, note="NO RATINGS: every source in the chain failed. Add torvik_manual_<year>.csv to the repo, or set RATINGS_URL; schedule and lines were still saved",
+                source="none", as_of=None, chain=chain)
 
 
 # ---------------------------------------------------------------- espn
 def fetch_espn(days_back=1, days_fwd=7):
     out, seen = [], set()
-    today = dt.date.today()
+    base = today()
     for i in range(-days_back, days_fwd + 1):
-        d = today + dt.timedelta(days=i)
+        d = base + dt.timedelta(days=i)
         try:
             r = requests.get(ESPN_URL.format(d=d.strftime("%Y%m%d")), headers=UA, timeout=20)
             if r.status_code != 200:
@@ -312,7 +472,7 @@ def main():
                 season=R["season"], stale_prior_season=R["stale"], note=R["note"], ratings_source=R["source"], ratings_as_of=R["as_of"],
                 teams=R["teams"], schedule=sched, odds_raw=odds,
                 api=dict(odds=odds_info, espn=dict(games=len(sched), first=(min((g.get("date") or "") for g in sched)[:10] if sched else None), last=(max((g.get("date") or "") for g in sched)[:10] if sched else None)),
-                         ratings=dict(source=R["source"], as_of=R["as_of"], teams=len(R["teams"]), note=R["note"])),
+                         ratings=dict(source=R["source"], as_of=R["as_of"], teams=len(R["teams"]), note=R["note"], chain=R.get("chain", []))),
                 _counts=dict(teams=len(R["teams"]), schedule=len(sched), odds=len(odds)))
     tmp = OUT + ".tmp"
     json.dump(data, open(tmp, "w", encoding="utf-8"), separators=(",", ":"))
